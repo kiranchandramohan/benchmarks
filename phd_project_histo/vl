@@ -1,0 +1,60 @@
+test.c:37: note: not vectorized: data ref analysis failed D.7169_48 = *D.7168_47;
+test.c:37: note: not vectorized: data ref analysis failed D.7169_48 = *D.7168_47;
+test.c:38: note: not vectorized: data ref analysis failed D.7169_48 = *D.7168_47;
+test.c:38: note: not vectorized: data ref analysis failed D.7169_48 = *D.7168_47;
+test.c:30: note: not vectorized: complicated access pattern.
+test.c:30: note: not vectorized: complicated access pattern.
+test.c:31: note: not vectorized: relevant stmt not supported: D.7165_31 = D.7164_30 % 255;
+test.c:31: note: not vectorized: relevant stmt not supported: D.7165_31 = D.7164_30 % 255;
+test.c:67: note: not vectorized: data ref analysis failed D.7147_48 = *D.7146_47;
+test.c:67: note: not vectorized: data ref analysis failed D.7147_48 = *D.7146_47;
+test.c:68: note: not vectorized: data ref analysis failed D.7147_48 = *D.7146_47;
+test.c:68: note: not vectorized: data ref analysis failed D.7147_48 = *D.7146_47;
+test.c:60: note: not vectorized: complicated access pattern.
+test.c:60: note: not vectorized: complicated access pattern.
+test.c:61: note: not vectorized: relevant stmt not supported: D.7143_31 = D.7142_30 % 255;
+test.c:61: note: not vectorized: relevant stmt not supported: D.7143_31 = D.7142_30 % 255;
+test.c:84: note: not vectorized: data ref analysis failed D.7126_22 = a9_gray_level_mapping[D.7125_21];
+test.c:84: note: not vectorized: data ref analysis failed D.7126_22 = a9_gray_level_mapping[D.7125_21];
+test.c:85: note: not vectorized: data ref analysis failed D.7126_22 = a9_gray_level_mapping[D.7125_21];
+test.c:85: note: not vectorized: data ref analysis failed D.7126_22 = a9_gray_level_mapping[D.7125_21];
+test.c:100: note: not vectorized: data ref analysis failed D.7115_22 = a9_gray_level_mapping[D.7114_21];
+test.c:100: note: not vectorized: data ref analysis failed D.7115_22 = a9_gray_level_mapping[D.7114_21];
+test.c:101: note: not vectorized: data ref analysis failed D.7115_22 = a9_gray_level_mapping[D.7114_21];
+test.c:101: note: not vectorized: data ref analysis failed D.7115_22 = a9_gray_level_mapping[D.7114_21];
+test.c:127: note: not vectorized: unsupported use in stmt.
+test.c:127: note: not vectorized: unsupported use in stmt.
+test.c:115: note: not vectorized: control flow in loop.
+test.c:115: note: not vectorized: Bad inner loop.
+test.c:116: note: not vectorized: control flow in loop.
+test.c:139: note: not vectorized: multiple nested loops.
+test.c:170: note: not vectorized: data ref analysis failed D.7090_83 = *D.7089_82;
+test.c:170: note: not vectorized: data ref analysis failed D.7090_83 = *D.7089_82;
+test.c:171: note: not vectorized: data ref analysis failed D.7090_83 = *D.7089_82;
+test.c:171: note: not vectorized: data ref analysis failed D.7090_83 = *D.7089_82;
+test.c:163: note: not vectorized: unsupported use in stmt.
+test.c:163: note: not vectorized: unsupported use in stmt.
+test.c:152: note: not vectorized: data ref analysis failed D.7077_45 = *D.7076_44;
+test.c:152: note: not vectorized: data ref analysis failed D.7077_45 = *D.7076_44;
+test.c:153: note: not vectorized: data ref analysis failed D.7077_45 = *D.7076_44;
+test.c:153: note: not vectorized: data ref analysis failed D.7077_45 = *D.7076_44;
+test.c:142: note: not vectorized: complicated access pattern.
+test.c:142: note: not vectorized: complicated access pattern.
+test.c:143: note: not vectorized: relevant stmt not supported: D.7070_22 = D.7069_21 % 255;
+test.c:143: note: not vectorized: relevant stmt not supported: D.7070_22 = D.7069_21 % 255;
+test.c:186: note: not vectorized: multiple nested loops.
+test.c:84: note: not vectorized: data ref analysis failed D.7187_85 = a9_gray_level_mapping[D.7188_84];
+test.c:84: note: not vectorized: data ref analysis failed D.7187_85 = a9_gray_level_mapping[D.7188_84];
+test.c:85: note: not vectorized: data ref analysis failed D.7187_85 = a9_gray_level_mapping[D.7188_84];
+test.c:85: note: not vectorized: data ref analysis failed D.7187_85 = a9_gray_level_mapping[D.7188_84];
+test.c:100: note: not vectorized: data ref analysis failed D.7203_100 = a9_gray_level_mapping[D.7204_99];
+test.c:100: note: not vectorized: data ref analysis failed D.7203_100 = a9_gray_level_mapping[D.7204_99];
+test.c:101: note: not vectorized: data ref analysis failed D.7203_100 = a9_gray_level_mapping[D.7204_99];
+test.c:101: note: not vectorized: data ref analysis failed D.7203_100 = a9_gray_level_mapping[D.7204_99];
+test.c:224: note: not vectorized: control flow in loop.
+test.c:252: note: not vectorized: multiple nested loops.
+test.c:254: note: not vectorized: complicated access pattern.
+test.c:254: note: not vectorized: complicated access pattern.
+test.c:260: note: not vectorized: number of iterations cannot be computed.
+test.c:260: note: not vectorized: Bad inner loop.
+test.c:261: note: not vectorized: number of iterations cannot be computed.

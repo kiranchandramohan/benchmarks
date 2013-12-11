@@ -1,0 +1,3848 @@
+sudo ./app -l 2 -r sysm3=4
+Opening Display..
+cur_time = 25.132935
+sudo ./app -l 2 -r sysm3=4
+Opening Display..
+cur_time = 25.048492
+sudo ./app -l 2 -r sysm3=4
+Opening Display..
+cur_time = 25.058838
+sudo ./app -l 2 -r sysm3=4
+Opening Display..
+cur_time = 24.941132
+sudo ./app -l 2 -r sysm3=4
+Opening Display..
+cur_time = 25.297791
+Average time : m3=4,dsp=0 : 25.0958376
+sudo ./app -l 2 -r sysm3=8
+Opening Display..
+cur_time = 24.970154
+sudo ./app -l 2 -r sysm3=8
+Opening Display..
+cur_time = 24.882660
+sudo ./app -l 2 -r sysm3=8
+Opening Display..
+cur_time = 24.904177
+sudo ./app -l 2 -r sysm3=8
+Opening Display..
+cur_time = 25.401552
+sudo ./app -l 2 -r sysm3=8
+Opening Display..
+cur_time = 25.297394
+Average time : m3=8,dsp=0 : 25.0911874
+sudo ./app -l 2 -r sysm3=12
+Opening Display..
+cur_time = 24.875883
+sudo ./app -l 2 -r sysm3=12
+Opening Display..
+cur_time = 24.955503
+sudo ./app -l 2 -r sysm3=12
+Opening Display..
+cur_time = 24.726809
+sudo ./app -l 2 -r sysm3=12
+Opening Display..
+cur_time = 24.929720
+sudo ./app -l 2 -r sysm3=12
+Opening Display..
+cur_time = 24.806061
+Average time : m3=12,dsp=0 : 24.8587952
+sudo ./app -l 2 -r sysm3=16
+Opening Display..
+cur_time = 24.634125
+sudo ./app -l 2 -r sysm3=16
+Opening Display..
+cur_time = 24.691711
+sudo ./app -l 2 -r sysm3=16
+Opening Display..
+cur_time = 24.683439
+sudo ./app -l 2 -r sysm3=16
+Opening Display..
+cur_time = 24.693848
+sudo ./app -l 2 -r sysm3=16
+Opening Display..
+cur_time = 24.741974
+Average time : m3=16,dsp=0 : 24.6890194
+sudo ./app -l 2 -r sysm3=20
+Opening Display..
+cur_time = 24.756226
+sudo ./app -l 2 -r sysm3=20
+Opening Display..
+cur_time = 24.780914
+sudo ./app -l 2 -r sysm3=20
+Opening Display..
+cur_time = 24.691040
+sudo ./app -l 2 -r sysm3=20
+Opening Display..
+cur_time = 24.849060
+sudo ./app -l 2 -r sysm3=20
+Opening Display..
+cur_time = 24.522858
+Average time : m3=20,dsp=0 : 24.7200196
+sudo ./app -l 2 -r sysm3=24
+Opening Display..
+cur_time = 24.471466
+sudo ./app -l 2 -r sysm3=24
+Opening Display..
+cur_time = 24.611025
+sudo ./app -l 2 -r sysm3=24
+Opening Display..
+cur_time = 24.610748
+sudo ./app -l 2 -r sysm3=24
+Opening Display..
+cur_time = 24.628908
+sudo ./app -l 2 -r sysm3=24
+Opening Display..
+cur_time = 24.449709
+Average time : m3=24,dsp=0 : 24.5543712
+sudo ./app -l 2 -r sysm3=28
+Opening Display..
+cur_time = 24.481812
+sudo ./app -l 2 -r sysm3=28
+Opening Display..
+cur_time = 24.500824
+sudo ./app -l 2 -r sysm3=28
+Opening Display..
+cur_time = 24.481049
+sudo ./app -l 2 -r sysm3=28
+Opening Display..
+cur_time = 26.111603
+sudo ./app -l 2 -r sysm3=28
+Opening Display..
+cur_time = 24.465210
+Average time : m3=28,dsp=0 : 24.8080996
+sudo ./app -l 2 -r sysm3=32
+Opening Display..
+cur_time = 24.341705
+sudo ./app -l 2 -r sysm3=32
+Opening Display..
+cur_time = 24.401459
+sudo ./app -l 2 -r sysm3=32
+Opening Display..
+cur_time = 24.405151
+sudo ./app -l 2 -r sysm3=32
+Opening Display..
+cur_time = 24.449800
+sudo ./app -l 2 -r sysm3=32
+Opening Display..
+cur_time = 26.211945
+Average time : m3=32,dsp=0 : 24.762012
+sudo ./app -l 2 -r sysm3=36
+Opening Display..
+cur_time = 24.266754
+sudo ./app -l 2 -r sysm3=36
+Opening Display..
+cur_time = 24.282164
+sudo ./app -l 2 -r sysm3=36
+Opening Display..
+cur_time = 25.041227
+sudo ./app -l 2 -r sysm3=36
+Opening Display..
+cur_time = 24.256439
+sudo ./app -l 2 -r sysm3=36
+Opening Display..
+cur_time = 24.270935
+Average time : m3=36,dsp=0 : 24.4235038
+sudo ./app -l 2 -r sysm3=40
+Opening Display..
+cur_time = 24.149963
+sudo ./app -l 2 -r sysm3=40
+Opening Display..
+cur_time = 24.097076
+sudo ./app -l 2 -r sysm3=40
+Opening Display..
+cur_time = 24.179655
+sudo ./app -l 2 -r sysm3=40
+Opening Display..
+cur_time = 24.201113
+sudo ./app -l 2 -r sysm3=40
+Opening Display..
+cur_time = 24.251068
+Average time : m3=40,dsp=0 : 24.175775
+sudo ./app -l 2 -r sysm3=44
+Opening Display..
+cur_time = 24.109253
+sudo ./app -l 2 -r sysm3=44
+Opening Display..
+cur_time = 24.231720
+sudo ./app -l 2 -r sysm3=44
+Opening Display..
+cur_time = 24.150419
+sudo ./app -l 2 -r sysm3=44
+Opening Display..
+cur_time = 24.149384
+sudo ./app -l 2 -r sysm3=44
+Opening Display..
+cur_time = 24.145844
+Average time : m3=44,dsp=0 : 24.157324
+sudo ./app -l 2 -r sysm3=48
+Opening Display..
+cur_time = 24.007383
+sudo ./app -l 2 -r sysm3=48
+Opening Display..
+cur_time = 24.056641
+sudo ./app -l 2 -r sysm3=48
+Opening Display..
+cur_time = 24.034424
+sudo ./app -l 2 -r sysm3=48
+Opening Display..
+cur_time = 24.033323
+sudo ./app -l 2 -r sysm3=48
+Opening Display..
+cur_time = 23.936768
+Average time : m3=48,dsp=0 : 24.0137078
+sudo ./app -l 2 -r sysm3=52
+Opening Display..
+cur_time = 23.859619
+sudo ./app -l 2 -r sysm3=52
+Opening Display..
+cur_time = 23.910309
+sudo ./app -l 2 -r sysm3=52
+Opening Display..
+cur_time = 23.885345
+sudo ./app -l 2 -r sysm3=52
+Opening Display..
+cur_time = 26.371857
+sudo ./app -l 2 -r sysm3=52
+Opening Display..
+cur_time = 23.982391
+Average time : m3=52,dsp=0 : 24.4019042
+sudo ./app -l 2 -r sysm3=56
+Opening Display..
+cur_time = 23.787506
+sudo ./app -l 2 -r sysm3=56
+Opening Display..
+cur_time = 24.804899
+sudo ./app -l 2 -r sysm3=56
+Opening Display..
+cur_time = 23.882446
+sudo ./app -l 2 -r sysm3=56
+Opening Display..
+cur_time = 23.863251
+sudo ./app -l 2 -r sysm3=56
+Opening Display..
+cur_time = 23.819214
+Average time : m3=56,dsp=0 : 24.0314632
+sudo ./app -l 2 -r sysm3=60
+Opening Display..
+cur_time = 23.747406
+sudo ./app -l 2 -r sysm3=60
+Opening Display..
+cur_time = 25.205292
+sudo ./app -l 2 -r sysm3=60
+Opening Display..
+cur_time = 23.791962
+sudo ./app -l 2 -r sysm3=60
+Opening Display..
+cur_time = 23.739166
+sudo ./app -l 2 -r sysm3=60
+Opening Display..
+cur_time = 24.130400
+Average time : m3=60,dsp=0 : 24.1228452
+sudo ./app -l 2 -r sysm3=64
+Opening Display..
+cur_time = 24.158264
+sudo ./app -l 2 -r sysm3=64
+Opening Display..
+cur_time = 25.318665
+sudo ./app -l 2 -r sysm3=64
+Opening Display..
+cur_time = 24.295715
+sudo ./app -l 2 -r sysm3=64
+Opening Display..
+cur_time = 23.686399
+sudo ./app -l 2 -r sysm3=64
+Opening Display..
+cur_time = 24.236605
+Average time : m3=64,dsp=0 : 24.3391296
+sudo ./app -l 2 -r sysm3=68
+Opening Display..
+cur_time = 23.561401
+sudo ./app -l 2 -r sysm3=68
+Opening Display..
+cur_time = 23.584623
+sudo ./app -l 2 -r sysm3=68
+Opening Display..
+cur_time = 23.644897
+sudo ./app -l 2 -r sysm3=68
+Opening Display..
+cur_time = 23.516876
+sudo ./app -l 2 -r sysm3=68
+Opening Display..
+cur_time = 23.517397
+Average time : m3=68,dsp=0 : 23.5650388
+sudo ./app -l 2 -r sysm3=72
+Opening Display..
+cur_time = 23.469696
+sudo ./app -l 2 -r sysm3=72
+Opening Display..
+cur_time = 23.496887
+sudo ./app -l 2 -r sysm3=72
+Opening Display..
+cur_time = 23.506256
+sudo ./app -l 2 -r sysm3=72
+Opening Display..
+cur_time = 23.541748
+sudo ./app -l 2 -r sysm3=72
+Opening Display..
+cur_time = 23.534760
+Average time : m3=72,dsp=0 : 23.5098694
+sudo ./app -l 2 -r sysm3=76
+Opening Display..
+cur_time = 23.865875
+sudo ./app -l 2 -r sysm3=76
+Opening Display..
+cur_time = 23.410645
+sudo ./app -l 2 -r sysm3=76
+Opening Display..
+cur_time = 23.400637
+sudo ./app -l 2 -r sysm3=76
+Opening Display..
+cur_time = 23.426483
+sudo ./app -l 2 -r sysm3=76
+Opening Display..
+cur_time = 23.346312
+Average time : m3=76,dsp=0 : 23.4899904
+sudo ./app -l 2 -r sysm3=80
+Opening Display..
+cur_time = 23.343931
+sudo ./app -l 2 -r sysm3=80
+Opening Display..
+cur_time = 23.580078
+sudo ./app -l 2 -r sysm3=80
+Opening Display..
+cur_time = 23.508669
+sudo ./app -l 2 -r sysm3=80
+Opening Display..
+cur_time = 23.387056
+sudo ./app -l 2 -r sysm3=80
+Opening Display..
+cur_time = 23.296570
+Average time : m3=80,dsp=0 : 23.4232608
+sudo ./app -l 2 -r sysm3=84
+Opening Display..
+cur_time = 23.168396
+sudo ./app -l 2 -r sysm3=84
+Opening Display..
+cur_time = 23.240326
+sudo ./app -l 2 -r sysm3=84
+Opening Display..
+cur_time = 23.333160
+sudo ./app -l 2 -r sysm3=84
+Opening Display..
+cur_time = 23.120148
+sudo ./app -l 2 -r sysm3=84
+Opening Display..
+cur_time = 23.137939
+Average time : m3=84,dsp=0 : 23.1999938
+sudo ./app -l 2 -r sysm3=88
+Opening Display..
+cur_time = 23.653839
+sudo ./app -l 2 -r sysm3=88
+Opening Display..
+cur_time = 23.280396
+sudo ./app -l 2 -r sysm3=88
+Opening Display..
+cur_time = 23.102053
+sudo ./app -l 2 -r sysm3=88
+Opening Display..
+cur_time = 23.260590
+sudo ./app -l 2 -r sysm3=88
+Opening Display..
+cur_time = 23.241425
+Average time : m3=88,dsp=0 : 23.3076606
+sudo ./app -l 2 -r sysm3=92
+Opening Display..
+cur_time = 23.203341
+sudo ./app -l 2 -r sysm3=92
+Opening Display..
+cur_time = 23.064575
+sudo ./app -l 2 -r sysm3=92
+Opening Display..
+cur_time = 23.025881
+sudo ./app -l 2 -r sysm3=92
+Opening Display..
+cur_time = 22.955688
+sudo ./app -l 2 -r sysm3=92
+Opening Display..
+cur_time = 23.001101
+Average time : m3=92,dsp=0 : 23.0501172
+sudo ./app -l 2 -r sysm3=96
+Opening Display..
+cur_time = 23.272034
+sudo ./app -l 2 -r sysm3=96
+Opening Display..
+cur_time = 23.110962
+sudo ./app -l 2 -r sysm3=96
+Opening Display..
+cur_time = 22.966156
+sudo ./app -l 2 -r sysm3=96
+Opening Display..
+cur_time = 23.039185
+sudo ./app -l 2 -r sysm3=96
+Opening Display..
+cur_time = 23.543762
+Average time : m3=96,dsp=0 : 23.1864198
+sudo ./app -l 2 -r sysm3=100
+Opening Display..
+cur_time = 22.790039
+sudo ./app -l 2 -r sysm3=100
+Opening Display..
+cur_time = 22.863770
+sudo ./app -l 2 -r sysm3=100
+Opening Display..
+cur_time = 22.837708
+sudo ./app -l 2 -r sysm3=100
+Opening Display..
+cur_time = 22.890043
+sudo ./app -l 2 -r sysm3=100
+Opening Display..
+cur_time = 22.881500
+Average time : m3=100,dsp=0 : 22.852612
+sudo ./app -l 2 -r sysm3=104
+Opening Display..
+cur_time = 22.653748
+sudo ./app -l 2 -r sysm3=104
+Opening Display..
+cur_time = 23.002716
+sudo ./app -l 2 -r sysm3=104
+Opening Display..
+cur_time = 22.748049
+sudo ./app -l 2 -r sysm3=104
+Opening Display..
+cur_time = 22.703094
+sudo ./app -l 2 -r sysm3=104
+Opening Display..
+cur_time = 22.823397
+Average time : m3=104,dsp=0 : 22.7862008
+sudo ./app -l 2 -r sysm3=108
+Opening Display..
+cur_time = 22.610229
+sudo ./app -l 2 -r sysm3=108
+Opening Display..
+cur_time = 22.892883
+sudo ./app -l 2 -r sysm3=108
+Opening Display..
+cur_time = 22.793518
+sudo ./app -l 2 -r sysm3=108
+Opening Display..
+cur_time = 22.753084
+sudo ./app -l 2 -r sysm3=108
+Opening Display..
+cur_time = 22.651550
+Average time : m3=108,dsp=0 : 22.7402528
+sudo ./app -l 2 -r sysm3=112
+Opening Display..
+cur_time = 22.779114
+sudo ./app -l 2 -r sysm3=112
+Opening Display..
+cur_time = 22.896761
+sudo ./app -l 2 -r sysm3=112
+Opening Display..
+cur_time = 22.774719
+sudo ./app -l 2 -r sysm3=112
+Opening Display..
+cur_time = 22.766573
+sudo ./app -l 2 -r sysm3=112
+Opening Display..
+cur_time = 22.773865
+Average time : m3=112,dsp=0 : 22.7982064
+sudo ./app -l 2 -r sysm3=116
+Opening Display..
+cur_time = 23.564423
+sudo ./app -l 2 -r sysm3=116
+Opening Display..
+cur_time = 23.562897
+sudo ./app -l 2 -r sysm3=116
+Opening Display..
+cur_time = 23.566742
+sudo ./app -l 2 -r sysm3=116
+Opening Display..
+cur_time = 23.563782
+sudo ./app -l 2 -r sysm3=116
+Opening Display..
+cur_time = 23.570953
+Average time : m3=116,dsp=0 : 23.5657594
+sudo ./app -l 2 -r sysm3=120
+Opening Display..
+cur_time = 24.358459
+sudo ./app -l 2 -r sysm3=120
+Opening Display..
+cur_time = 24.355072
+sudo ./app -l 2 -r sysm3=120
+Opening Display..
+cur_time = 24.355349
+sudo ./app -l 2 -r sysm3=120
+Opening Display..
+cur_time = 24.348360
+sudo ./app -l 2 -r sysm3=120
+Opening Display..
+cur_time = 24.351135
+Average time : m3=120,dsp=0 : 24.353675
+sudo ./app -l 2 -r sysm3=124
+Opening Display..
+cur_time = 25.130737
+sudo ./app -l 2 -r sysm3=124
+Opening Display..
+cur_time = 25.138306
+sudo ./app -l 2 -r sysm3=124
+Opening Display..
+cur_time = 25.134705
+sudo ./app -l 2 -r sysm3=124
+Opening Display..
+cur_time = 25.134094
+sudo ./app -l 2 -r sysm3=124
+Opening Display..
+cur_time = 25.136412
+Average time : m3=124,dsp=0 : 25.1348508
+sudo ./app -l 2 -r sysm3=128
+Opening Display..
+cur_time = 25.920835
+sudo ./app -l 2 -r sysm3=128
+Opening Display..
+cur_time = 25.915680
+sudo ./app -l 2 -r sysm3=128
+Opening Display..
+cur_time = 25.916931
+sudo ./app -l 2 -r sysm3=128
+Opening Display..
+cur_time = 25.922701
+sudo ./app -l 2 -r sysm3=128
+Opening Display..
+cur_time = 25.911224
+Average time : m3=128,dsp=0 : 25.9174742
+sudo ./app -l 2 -r sysm3=132
+Opening Display..
+cur_time = 26.711027
+sudo ./app -l 2 -r sysm3=132
+Opening Display..
+cur_time = 26.713436
+sudo ./app -l 2 -r sysm3=132
+Opening Display..
+cur_time = 26.710691
+sudo ./app -l 2 -r sysm3=132
+Opening Display..
+cur_time = 26.714144
+sudo ./app -l 2 -r sysm3=132
+Opening Display..
+cur_time = 26.714233
+Average time : m3=132,dsp=0 : 26.7127062
+sudo ./app -l 2 -r sysm3=136
+Opening Display..
+cur_time = 27.500916
+sudo ./app -l 2 -r sysm3=136
+Opening Display..
+cur_time = 27.487366
+sudo ./app -l 2 -r sysm3=136
+Opening Display..
+cur_time = 27.508698
+sudo ./app -l 2 -r sysm3=136
+Opening Display..
+cur_time = 27.504120
+sudo ./app -l 2 -r sysm3=136
+Opening Display..
+cur_time = 27.506872
+Average time : m3=136,dsp=0 : 27.5015944
+sudo ./app -l 2 -r sysm3=140
+Opening Display..
+cur_time = 28.270323
+sudo ./app -l 2 -r sysm3=140
+Opening Display..
+cur_time = 28.287632
+sudo ./app -l 2 -r sysm3=140
+Opening Display..
+cur_time = 28.291748
+sudo ./app -l 2 -r sysm3=140
+Opening Display..
+cur_time = 28.274292
+sudo ./app -l 2 -r sysm3=140
+Opening Display..
+cur_time = 28.292877
+Average time : m3=140,dsp=0 : 28.2833744
+sudo ./app -l 2 -r sysm3=144
+Opening Display..
+cur_time = 29.060024
+sudo ./app -l 2 -r sysm3=144
+Opening Display..
+cur_time = 29.073944
+sudo ./app -l 2 -r sysm3=144
+Opening Display..
+cur_time = 29.071993
+sudo ./app -l 2 -r sysm3=144
+Opening Display..
+cur_time = 29.078310
+sudo ./app -l 2 -r sysm3=144
+Opening Display..
+cur_time = 29.077667
+Average time : m3=144,dsp=0 : 29.0723876
+sudo ./app -l 2 -r sysm3=148
+Opening Display..
+cur_time = 29.861816
+sudo ./app -l 2 -r sysm3=148
+Opening Display..
+cur_time = 29.853333
+sudo ./app -l 2 -r sysm3=148
+Opening Display..
+cur_time = 29.858459
+sudo ./app -l 2 -r sysm3=148
+Opening Display..
+cur_time = 29.855774
+sudo ./app -l 2 -r sysm3=148
+Opening Display..
+cur_time = 29.857300
+Average time : m3=148,dsp=0 : 29.8573364
+sudo ./app -l 2 -r sysm3=152
+Opening Display..
+cur_time = 30.634247
+sudo ./app -l 2 -r sysm3=152
+Opening Display..
+cur_time = 30.635744
+sudo ./app -l 2 -r sysm3=152
+Opening Display..
+cur_time = 30.647947
+sudo ./app -l 2 -r sysm3=152
+Opening Display..
+cur_time = 30.645111
+sudo ./app -l 2 -r sysm3=152
+Opening Display..
+cur_time = 30.643677
+Average time : m3=152,dsp=0 : 30.6413452
+sudo ./app -l 2 -r sysm3=156
+Opening Display..
+cur_time = 31.434418
+sudo ./app -l 2 -r sysm3=156
+Opening Display..
+cur_time = 31.430084
+sudo ./app -l 2 -r sysm3=156
+Opening Display..
+cur_time = 31.428986
+sudo ./app -l 2 -r sysm3=156
+Opening Display..
+cur_time = 31.435274
+sudo ./app -l 2 -r sysm3=156
+Opening Display..
+cur_time = 31.435516
+Average time : m3=156,dsp=0 : 31.4328556
+sudo ./app -l 2 -r sysm3=160
+Opening Display..
+cur_time = 32.222443
+sudo ./app -l 2 -r sysm3=160
+Opening Display..
+cur_time = 32.227295
+sudo ./app -l 2 -r sysm3=160
+Opening Display..
+cur_time = 32.225403
+sudo ./app -l 2 -r sysm3=160
+Opening Display..
+cur_time = 32.224518
+sudo ./app -l 2 -r sysm3=160
+Opening Display..
+cur_time = 32.219601
+Average time : m3=160,dsp=0 : 32.223852
+sudo ./app -l 2 -r sysm3=164
+Opening Display..
+cur_time = 33.012726
+sudo ./app -l 2 -r sysm3=164
+Opening Display..
+cur_time = 33.013092
+sudo ./app -l 2 -r sysm3=164
+Opening Display..
+cur_time = 33.009796
+sudo ./app -l 2 -r sysm3=164
+Opening Display..
+cur_time = 33.009949
+sudo ./app -l 2 -r sysm3=164
+Opening Display..
+cur_time = 33.008087
+Average time : m3=164,dsp=0 : 33.01073
+sudo ./app -l 2 -r sysm3=168
+Opening Display..
+cur_time = 33.796818
+sudo ./app -l 2 -r sysm3=168
+Opening Display..
+cur_time = 33.799438
+sudo ./app -l 2 -r sysm3=168
+Opening Display..
+cur_time = 33.792175
+sudo ./app -l 2 -r sysm3=168
+Opening Display..
+cur_time = 33.794861
+sudo ./app -l 2 -r sysm3=168
+Opening Display..
+cur_time = 33.771118
+Average time : m3=168,dsp=0 : 33.790882
+sudo ./app -l 2 -r sysm3=172
+Opening Display..
+cur_time = 34.573883
+sudo ./app -l 2 -r sysm3=172
+Opening Display..
+cur_time = 34.550751
+sudo ./app -l 2 -r sysm3=172
+Opening Display..
+cur_time = 34.572758
+sudo ./app -l 2 -r sysm3=172
+Opening Display..
+cur_time = 34.578033
+sudo ./app -l 2 -r sysm3=172
+Opening Display..
+cur_time = 34.577366
+Average time : m3=172,dsp=0 : 34.5705582
+sudo ./app -l 2 -r sysm3=176
+Opening Display..
+cur_time = 35.368011
+sudo ./app -l 2 -r sysm3=176
+Opening Display..
+cur_time = 35.365021
+sudo ./app -l 2 -r sysm3=176
+Opening Display..
+cur_time = 35.367676
+sudo ./app -l 2 -r sysm3=176
+Opening Display..
+cur_time = 35.366577
+sudo ./app -l 2 -r sysm3=176
+Opening Display..
+cur_time = 35.363159
+Average time : m3=176,dsp=0 : 35.3660888
+sudo ./app -l 2 -r sysm3=180
+Opening Display..
+cur_time = 36.147335
+sudo ./app -l 2 -r sysm3=180
+Opening Display..
+cur_time = 36.155033
+sudo ./app -l 2 -r sysm3=180
+Opening Display..
+cur_time = 36.165741
+sudo ./app -l 2 -r sysm3=180
+Opening Display..
+cur_time = 36.157776
+sudo ./app -l 2 -r sysm3=180
+Opening Display..
+cur_time = 36.151978
+Average time : m3=180,dsp=0 : 36.1555726
+sudo ./app -l 2 -r sysm3=184
+Opening Display..
+cur_time = 36.942352
+sudo ./app -l 2 -r sysm3=184
+Opening Display..
+cur_time = 36.940796
+sudo ./app -l 2 -r sysm3=184
+Opening Display..
+cur_time = 36.942902
+sudo ./app -l 2 -r sysm3=184
+Opening Display..
+cur_time = 36.942230
+sudo ./app -l 2 -r sysm3=184
+Opening Display..
+cur_time = 36.943878
+Average time : m3=184,dsp=0 : 36.9424316
+sudo ./app -l 2 -r sysm3=188
+Opening Display..
+cur_time = 37.735687
+sudo ./app -l 2 -r sysm3=188
+Opening Display..
+cur_time = 37.729614
+sudo ./app -l 2 -r sysm3=188
+Opening Display..
+cur_time = 37.723663
+sudo ./app -l 2 -r sysm3=188
+Opening Display..
+cur_time = 37.733032
+sudo ./app -l 2 -r sysm3=188
+Opening Display..
+cur_time = 37.733826
+Average time : m3=188,dsp=0 : 37.7311644
+sudo ./app -l 2 -r sysm3=192
+Opening Display..
+cur_time = 38.511078
+sudo ./app -l 2 -r sysm3=192
+Opening Display..
+cur_time = 38.511719
+sudo ./app -l 2 -r sysm3=192
+Opening Display..
+cur_time = 38.507141
+sudo ./app -l 2 -r sysm3=192
+Opening Display..
+cur_time = 38.514343
+sudo ./app -l 2 -r sysm3=192
+Opening Display..
+cur_time = 38.513641
+Average time : m3=192,dsp=0 : 38.5115844
+sudo ./app -l 2 -r sysm3=196
+Opening Display..
+cur_time = 39.302704
+sudo ./app -l 2 -r sysm3=196
+Opening Display..
+cur_time = 39.296600
+sudo ./app -l 2 -r sysm3=196
+Opening Display..
+cur_time = 39.300503
+sudo ./app -l 2 -r sysm3=196
+Opening Display..
+cur_time = 39.297119
+sudo ./app -l 2 -r sysm3=196
+Opening Display..
+cur_time = 39.299160
+Average time : m3=196,dsp=0 : 39.2992172
+sudo ./app -l 2 -r sysm3=200
+Opening Display..
+cur_time = 40.090424
+sudo ./app -l 2 -r sysm3=200
+Opening Display..
+cur_time = 40.085567
+sudo ./app -l 2 -r sysm3=200
+Opening Display..
+cur_time = 40.067719
+sudo ./app -l 2 -r sysm3=200
+Opening Display..
+cur_time = 40.083008
+sudo ./app -l 2 -r sysm3=200
+Opening Display..
+cur_time = 40.082275
+Average time : m3=200,dsp=0 : 40.0817986
+sudo ./app -l 2 -r sysm3=204
+Opening Display..
+cur_time = 40.881073
+sudo ./app -l 2 -r sysm3=204
+Opening Display..
+cur_time = 40.878357
+sudo ./app -l 2 -r sysm3=204
+Opening Display..
+cur_time = 40.860081
+sudo ./app -l 2 -r sysm3=204
+Opening Display..
+cur_time = 40.880432
+sudo ./app -l 2 -r sysm3=204
+Opening Display..
+cur_time = 40.877533
+Average time : m3=204,dsp=0 : 40.8754952
+sudo ./app -l 2 -r sysm3=208
+Opening Display..
+cur_time = 41.667480
+sudo ./app -l 2 -r sysm3=208
+Opening Display..
+cur_time = 41.659576
+sudo ./app -l 2 -r sysm3=208
+Opening Display..
+cur_time = 41.657013
+sudo ./app -l 2 -r sysm3=208
+Opening Display..
+cur_time = 41.661495
+sudo ./app -l 2 -r sysm3=208
+Opening Display..
+cur_time = 41.661865
+Average time : m3=208,dsp=0 : 41.6614858
+sudo ./app -l 2 -r sysm3=212
+Opening Display..
+cur_time = 42.443939
+sudo ./app -l 2 -r sysm3=212
+Opening Display..
+cur_time = 42.445183
+sudo ./app -l 2 -r sysm3=212
+Opening Display..
+cur_time = 42.449188
+sudo ./app -l 2 -r sysm3=212
+Opening Display..
+cur_time = 42.451111
+sudo ./app -l 2 -r sysm3=212
+Opening Display..
+cur_time = 42.443420
+Average time : m3=212,dsp=0 : 42.4465682
+sudo ./app -l 2 -r sysm3=216
+Opening Display..
+cur_time = 43.226929
+sudo ./app -l 2 -r sysm3=216
+Opening Display..
+cur_time = 43.226994
+sudo ./app -l 2 -r sysm3=216
+Opening Display..
+cur_time = 43.230865
+sudo ./app -l 2 -r sysm3=216
+Opening Display..
+cur_time = 43.227509
+sudo ./app -l 2 -r sysm3=216
+Opening Display..
+cur_time = 43.225922
+Average time : m3=216,dsp=0 : 43.2276438
+sudo ./app -l 2 -r sysm3=220
+Opening Display..
+cur_time = 44.012024
+sudo ./app -l 2 -r sysm3=220
+Opening Display..
+cur_time = 44.017731
+sudo ./app -l 2 -r sysm3=220
+Opening Display..
+cur_time = 44.018005
+sudo ./app -l 2 -r sysm3=220
+Opening Display..
+cur_time = 44.011139
+sudo ./app -l 2 -r sysm3=220
+Opening Display..
+cur_time = 44.020172
+Average time : m3=220,dsp=0 : 44.0158142
+sudo ./app -l 2 -r sysm3=224
+Opening Display..
+cur_time = 44.803074
+sudo ./app -l 2 -r sysm3=224
+Opening Display..
+cur_time = 44.802795
+sudo ./app -l 2 -r sysm3=224
+Opening Display..
+cur_time = 44.803711
+sudo ./app -l 2 -r sysm3=224
+Opening Display..
+cur_time = 44.806244
+sudo ./app -l 2 -r sysm3=224
+Opening Display..
+cur_time = 44.797363
+Average time : m3=224,dsp=0 : 44.8026374
+sudo ./app -l 2 -r sysm3=228
+Opening Display..
+cur_time = 45.593475
+sudo ./app -l 2 -r sysm3=228
+Opening Display..
+cur_time = 45.595703
+sudo ./app -l 2 -r sysm3=228
+Opening Display..
+cur_time = 45.568970
+sudo ./app -l 2 -r sysm3=228
+Opening Display..
+cur_time = 45.587921
+sudo ./app -l 2 -r sysm3=228
+Opening Display..
+cur_time = 45.597321
+Average time : m3=228,dsp=0 : 45.588678
+sudo ./app -l 2 -r sysm3=232
+Opening Display..
+cur_time = 46.376221
+sudo ./app -l 2 -r sysm3=232
+Opening Display..
+cur_time = 46.378601
+sudo ./app -l 2 -r sysm3=232
+Opening Display..
+cur_time = 46.378479
+sudo ./app -l 2 -r sysm3=232
+Opening Display..
+cur_time = 46.382996
+sudo ./app -l 2 -r sysm3=232
+Opening Display..
+cur_time = 46.383484
+Average time : m3=232,dsp=0 : 46.3799562
+sudo ./app -l 2 -r sysm3=236
+Opening Display..
+cur_time = 47.164062
+sudo ./app -l 2 -r sysm3=236
+Opening Display..
+cur_time = 47.157440
+sudo ./app -l 2 -r sysm3=236
+Opening Display..
+cur_time = 47.159241
+sudo ./app -l 2 -r sysm3=236
+Opening Display..
+cur_time = 47.161133
+sudo ./app -l 2 -r sysm3=236
+Opening Display..
+cur_time = 47.147980
+Average time : m3=236,dsp=0 : 47.1579712
+sudo ./app -l 2 -r sysm3=240
+Opening Display..
+cur_time = 47.949951
+sudo ./app -l 2 -r sysm3=240
+Opening Display..
+cur_time = 47.938965
+sudo ./app -l 2 -r sysm3=240
+Opening Display..
+cur_time = 47.949860
+sudo ./app -l 2 -r sysm3=240
+Opening Display..
+cur_time = 47.947266
+sudo ./app -l 2 -r sysm3=240
+Opening Display..
+cur_time = 47.925262
+Average time : m3=240,dsp=0 : 47.9422608
+sudo ./app -l 2 -r sysm3=244
+Opening Display..
+cur_time = 48.736603
+sudo ./app -l 2 -r sysm3=244
+Opening Display..
+cur_time = 48.737762
+sudo ./app -l 2 -r sysm3=244
+Opening Display..
+cur_time = 48.738007
+sudo ./app -l 2 -r sysm3=244
+Opening Display..
+cur_time = 48.739742
+sudo ./app -l 2 -r sysm3=244
+Opening Display..
+cur_time = 48.714996
+Average time : m3=244,dsp=0 : 48.733422
+sudo ./app -l 2 -r sysm3=248
+Opening Display..
+cur_time = 49.524017
+sudo ./app -l 2 -r sysm3=248
+Opening Display..
+cur_time = 49.520355
+sudo ./app -l 2 -r sysm3=248
+Opening Display..
+cur_time = 49.520416
+sudo ./app -l 2 -r sysm3=248
+Opening Display..
+cur_time = 49.526703
+sudo ./app -l 2 -r sysm3=248
+Opening Display..
+cur_time = 49.525578
+Average time : m3=248,dsp=0 : 49.5234138
+sudo ./app -l 2 -r sysm3=252
+Opening Display..
+cur_time = 50.308472
+sudo ./app -l 2 -r sysm3=252
+Opening Display..
+cur_time = 50.317383
+sudo ./app -l 2 -r sysm3=252
+Opening Display..
+cur_time = 50.314087
+sudo ./app -l 2 -r sysm3=252
+Opening Display..
+cur_time = 50.316040
+sudo ./app -l 2 -r sysm3=252
+Opening Display..
+cur_time = 50.310883
+Average time : m3=252,dsp=0 : 50.313373
+sudo ./app -l 2 -r sysm3=256
+Opening Display..
+cur_time = 51.093231
+sudo ./app -l 2 -r sysm3=256
+Opening Display..
+cur_time = 51.097473
+sudo ./app -l 2 -r sysm3=256
+Opening Display..
+cur_time = 51.097931
+sudo ./app -l 2 -r sysm3=256
+Opening Display..
+cur_time = 51.102509
+sudo ./app -l 2 -r sysm3=256
+Opening Display..
+cur_time = 51.097660
+Average time : m3=256,dsp=0 : 51.0977608
+sudo ./app -l 2 -r sysm3=260
+Opening Display..
+cur_time = 51.879608
+sudo ./app -l 2 -r sysm3=260
+Opening Display..
+cur_time = 51.875732
+sudo ./app -l 2 -r sysm3=260
+Opening Display..
+cur_time = 51.876343
+sudo ./app -l 2 -r sysm3=260
+Opening Display..
+cur_time = 51.871948
+sudo ./app -l 2 -r sysm3=260
+Opening Display..
+cur_time = 51.880280
+Average time : m3=260,dsp=0 : 51.8767822
+sudo ./app -l 2 -r sysm3=264
+Opening Display..
+cur_time = 52.669708
+sudo ./app -l 2 -r sysm3=264
+Opening Display..
+cur_time = 52.659271
+sudo ./app -l 2 -r sysm3=264
+Opening Display..
+cur_time = 52.657288
+sudo ./app -l 2 -r sysm3=264
+Opening Display..
+cur_time = 52.655975
+sudo ./app -l 2 -r sysm3=264
+Opening Display..
+cur_time = 52.659485
+Average time : m3=264,dsp=0 : 52.6603454
+sudo ./app -l 2 -r sysm3=268
+Opening Display..
+cur_time = 53.452759
+sudo ./app -l 2 -r sysm3=268
+Opening Display..
+cur_time = 53.449615
+sudo ./app -l 2 -r sysm3=268
+Opening Display..
+cur_time = 53.449432
+sudo ./app -l 2 -r sysm3=268
+Opening Display..
+cur_time = 53.456696
+sudo ./app -l 2 -r sysm3=268
+Opening Display..
+cur_time = 53.448669
+Average time : m3=268,dsp=0 : 53.4514342
+sudo ./app -l 2 -r sysm3=272
+Opening Display..
+cur_time = 54.241516
+sudo ./app -l 2 -r sysm3=272
+Opening Display..
+cur_time = 54.237518
+sudo ./app -l 2 -r sysm3=272
+Opening Display..
+cur_time = 54.243862
+sudo ./app -l 2 -r sysm3=272
+Opening Display..
+cur_time = 54.239838
+sudo ./app -l 2 -r sysm3=272
+Opening Display..
+cur_time = 54.235199
+Average time : m3=272,dsp=0 : 54.2395866
+sudo ./app -l 2 -r sysm3=276
+Opening Display..
+cur_time = 55.025604
+sudo ./app -l 2 -r sysm3=276
+Opening Display..
+cur_time = 55.026550
+sudo ./app -l 2 -r sysm3=276
+Opening Display..
+cur_time = 55.025940
+sudo ./app -l 2 -r sysm3=276
+Opening Display..
+cur_time = 55.028839
+sudo ./app -l 2 -r sysm3=276
+Opening Display..
+cur_time = 55.029938
+Average time : m3=276,dsp=0 : 55.0273742
+sudo ./app -l 2 -r sysm3=280
+Opening Display..
+cur_time = 55.805511
+sudo ./app -l 2 -r sysm3=280
+Opening Display..
+cur_time = 55.815434
+sudo ./app -l 2 -r sysm3=280
+Opening Display..
+cur_time = 55.813354
+sudo ./app -l 2 -r sysm3=280
+Opening Display..
+cur_time = 55.811279
+sudo ./app -l 2 -r sysm3=280
+Opening Display..
+cur_time = 55.816162
+Average time : m3=280,dsp=0 : 55.812348
+sudo ./app -l 2 -r sysm3=284
+Opening Display..
+cur_time = 56.597721
+sudo ./app -l 2 -r sysm3=284
+Opening Display..
+cur_time = 56.597103
+sudo ./app -l 2 -r sysm3=284
+Opening Display..
+cur_time = 56.600433
+sudo ./app -l 2 -r sysm3=284
+Opening Display..
+cur_time = 56.595978
+sudo ./app -l 2 -r sysm3=284
+Opening Display..
+cur_time = 56.600246
+Average time : m3=284,dsp=0 : 56.5982962
+sudo ./app -l 2 -r sysm3=288
+Opening Display..
+cur_time = 57.386261
+sudo ./app -l 2 -r sysm3=288
+Opening Display..
+cur_time = 57.387421
+sudo ./app -l 2 -r sysm3=288
+Opening Display..
+cur_time = 57.378235
+sudo ./app -l 2 -r sysm3=288
+Opening Display..
+cur_time = 57.382847
+sudo ./app -l 2 -r sysm3=288
+Opening Display..
+cur_time = 57.384552
+Average time : m3=288,dsp=0 : 57.3838632
+sudo ./app -l 2 -r sysm3=292
+Opening Display..
+cur_time = 58.173767
+sudo ./app -l 2 -r sysm3=292
+Opening Display..
+cur_time = 58.176998
+sudo ./app -l 2 -r sysm3=292
+Opening Display..
+cur_time = 58.174988
+sudo ./app -l 2 -r sysm3=292
+Opening Display..
+cur_time = 58.179108
+sudo ./app -l 2 -r sysm3=292
+Opening Display..
+cur_time = 58.173065
+Average time : m3=292,dsp=0 : 58.1755852
+sudo ./app -l 2 -r sysm3=296
+Opening Display..
+cur_time = 58.967777
+sudo ./app -l 2 -r sysm3=296
+Opening Display..
+cur_time = 58.968292
+sudo ./app -l 2 -r sysm3=296
+Opening Display..
+cur_time = 58.955444
+sudo ./app -l 2 -r sysm3=296
+Opening Display..
+cur_time = 58.955170
+sudo ./app -l 2 -r sysm3=296
+Opening Display..
+cur_time = 58.965149
+Average time : m3=296,dsp=0 : 58.9623664
+sudo ./app -l 2 -r sysm3=300
+Opening Display..
+cur_time = 59.756592
+sudo ./app -l 2 -r sysm3=300
+Opening Display..
+cur_time = 59.754364
+sudo ./app -l 2 -r sysm3=300
+Opening Display..
+cur_time = 59.752289
+sudo ./app -l 2 -r sysm3=300
+Opening Display..
+cur_time = 59.751953
+sudo ./app -l 2 -r sysm3=300
+Opening Display..
+cur_time = 59.739838
+Average time : m3=300,dsp=0 : 59.7510072
+sudo ./app -l 2 -r sysm3=304
+Opening Display..
+cur_time = 60.537327
+sudo ./app -l 2 -r sysm3=304
+Opening Display..
+cur_time = 60.543152
+sudo ./app -l 2 -r sysm3=304
+Opening Display..
+cur_time = 60.524872
+sudo ./app -l 2 -r sysm3=304
+Opening Display..
+cur_time = 60.536530
+sudo ./app -l 2 -r sysm3=304
+Opening Display..
+cur_time = 60.527435
+Average time : m3=304,dsp=0 : 60.5338632
+sudo ./app -l 2 -r sysm3=308
+Opening Display..
+cur_time = 61.321014
+sudo ./app -l 2 -r sysm3=308
+Opening Display..
+cur_time = 61.318329
+sudo ./app -l 2 -r sysm3=308
+Opening Display..
+cur_time = 61.318207
+sudo ./app -l 2 -r sysm3=308
+Opening Display..
+cur_time = 61.306519
+sudo ./app -l 2 -r sysm3=308
+Opening Display..
+cur_time = 61.322693
+Average time : m3=308,dsp=0 : 61.3173524
+sudo ./app -l 2 -r sysm3=312
+Opening Display..
+cur_time = 62.087799
+sudo ./app -l 2 -r sysm3=312
+Opening Display..
+cur_time = 62.105164
+sudo ./app -l 2 -r sysm3=312
+Opening Display..
+cur_time = 62.097721
+sudo ./app -l 2 -r sysm3=312
+Opening Display..
+cur_time = 62.102665
+sudo ./app -l 2 -r sysm3=312
+Opening Display..
+cur_time = 62.102844
+Average time : m3=312,dsp=0 : 62.0992386
+sudo ./app -l 2 -r sysm3=316
+Opening Display..
+cur_time = 62.890743
+sudo ./app -l 2 -r sysm3=316
+Opening Display..
+cur_time = 62.893463
+sudo ./app -l 2 -r sysm3=316
+Opening Display..
+cur_time = 62.894409
+sudo ./app -l 2 -r sysm3=316
+Opening Display..
+cur_time = 62.888401
+sudo ./app -l 2 -r sysm3=316
+Opening Display..
+cur_time = 62.894440
+Average time : m3=316,dsp=0 : 62.8922912
+sudo ./app -l 2 -r sysm3=320
+Opening Display..
+cur_time = 63.679779
+sudo ./app -l 2 -r sysm3=320
+Opening Display..
+cur_time = 63.686066
+sudo ./app -l 2 -r sysm3=320
+Opening Display..
+cur_time = 63.683018
+sudo ./app -l 2 -r sysm3=320
+Opening Display..
+cur_time = 63.678131
+sudo ./app -l 2 -r sysm3=320
+Opening Display..
+cur_time = 63.671692
+Average time : m3=320,dsp=0 : 63.6797372
+sudo ./app -l 2 -r sysm3=324
+Opening Display..
+cur_time = 64.468781
+sudo ./app -l 2 -r sysm3=324
+Opening Display..
+cur_time = 64.473267
+sudo ./app -l 2 -r sysm3=324
+Opening Display..
+cur_time = 64.471924
+sudo ./app -l 2 -r sysm3=324
+Opening Display..
+cur_time = 64.472778
+sudo ./app -l 2 -r sysm3=324
+Opening Display..
+cur_time = 64.472565
+Average time : m3=324,dsp=0 : 64.471863
+sudo ./app -l 2 -r sysm3=328
+Opening Display..
+cur_time = 65.238312
+sudo ./app -l 2 -r sysm3=328
+Opening Display..
+cur_time = 65.258759
+sudo ./app -l 2 -r sysm3=328
+Opening Display..
+cur_time = 65.250488
+sudo ./app -l 2 -r sysm3=328
+Opening Display..
+cur_time = 65.255402
+sudo ./app -l 2 -r sysm3=328
+Opening Display..
+cur_time = 65.262146
+Average time : m3=328,dsp=0 : 65.2530214
+sudo ./app -l 2 -r sysm3=332
+Opening Display..
+cur_time = 66.029999
+sudo ./app -l 2 -r sysm3=332
+Opening Display..
+cur_time = 66.036621
+sudo ./app -l 2 -r sysm3=332
+Opening Display..
+cur_time = 66.032104
+sudo ./app -l 2 -r sysm3=332
+Opening Display..
+cur_time = 66.035065
+sudo ./app -l 2 -r sysm3=332
+Opening Display..
+cur_time = 66.035065
+Average time : m3=332,dsp=0 : 66.0337708
+sudo ./app -l 2 -r sysm3=336
+Opening Display..
+cur_time = 66.811310
+sudo ./app -l 2 -r sysm3=336
+Opening Display..
+cur_time = 66.818115
+sudo ./app -l 2 -r sysm3=336
+Opening Display..
+cur_time = 66.823608
+sudo ./app -l 2 -r sysm3=336
+Opening Display..
+cur_time = 66.814545
+sudo ./app -l 2 -r sysm3=336
+Opening Display..
+cur_time = 66.819733
+Average time : m3=336,dsp=0 : 66.8174622
+sudo ./app -l 2 -r sysm3=340
+Opening Display..
+cur_time = 67.611877
+sudo ./app -l 2 -r sysm3=340
+Opening Display..
+cur_time = 67.615356
+sudo ./app -l 2 -r sysm3=340
+Opening Display..
+cur_time = 67.612000
+sudo ./app -l 2 -r sysm3=340
+Opening Display..
+cur_time = 67.613342
+sudo ./app -l 2 -r sysm3=340
+Opening Display..
+cur_time = 67.612488
+Average time : m3=340,dsp=0 : 67.6130126
+sudo ./app -l 2 -r sysm3=344
+Opening Display..
+cur_time = 68.398865
+sudo ./app -l 2 -r sysm3=344
+Opening Display..
+cur_time = 68.400635
+sudo ./app -l 2 -r sysm3=344
+Opening Display..
+cur_time = 68.401825
+sudo ./app -l 2 -r sysm3=344
+Opening Display..
+cur_time = 68.403473
+sudo ./app -l 2 -r sysm3=344
+Opening Display..
+cur_time = 68.401581
+Average time : m3=344,dsp=0 : 68.4012758
+sudo ./app -l 2 -r sysm3=348
+Opening Display..
+cur_time = 69.191467
+sudo ./app -l 2 -r sysm3=348
+Opening Display..
+cur_time = 69.185844
+sudo ./app -l 2 -r sysm3=348
+Opening Display..
+cur_time = 69.184021
+sudo ./app -l 2 -r sysm3=348
+Opening Display..
+cur_time = 69.190338
+sudo ./app -l 2 -r sysm3=348
+Opening Display..
+cur_time = 69.188934
+Average time : m3=348,dsp=0 : 69.1881208
+sudo ./app -l 2 -r sysm3=352
+Opening Display..
+cur_time = 69.970093
+sudo ./app -l 2 -r sysm3=352
+Opening Display..
+cur_time = 69.971527
+sudo ./app -l 2 -r sysm3=352
+Opening Display..
+cur_time = 69.968445
+sudo ./app -l 2 -r sysm3=352
+Opening Display..
+cur_time = 69.964264
+sudo ./app -l 2 -r sysm3=352
+Opening Display..
+cur_time = 69.965271
+Average time : m3=352,dsp=0 : 69.96792
+sudo ./app -l 2 -r sysm3=356
+Opening Display..
+cur_time = 70.742279
+sudo ./app -l 2 -r sysm3=356
+Opening Display..
+cur_time = 70.751648
+sudo ./app -l 2 -r sysm3=356
+Opening Display..
+cur_time = 70.744781
+sudo ./app -l 2 -r sysm3=356
+Opening Display..
+cur_time = 70.748840
+sudo ./app -l 2 -r sysm3=356
+Opening Display..
+cur_time = 70.752045
+Average time : m3=356,dsp=0 : 70.7479186
+sudo ./app -l 2 -r sysm3=360
+Opening Display..
+cur_time = 71.532928
+sudo ./app -l 2 -r sysm3=360
+Opening Display..
+cur_time = 71.536987
+sudo ./app -l 2 -r sysm3=360
+Opening Display..
+cur_time = 71.533722
+sudo ./app -l 2 -r sysm3=360
+Opening Display..
+cur_time = 71.530701
+sudo ./app -l 2 -r sysm3=360
+Opening Display..
+cur_time = 71.531227
+Average time : m3=360,dsp=0 : 71.533113
+sudo ./app -l 2 -r sysm3=364
+Opening Display..
+cur_time = 72.286438
+sudo ./app -l 2 -r sysm3=364
+Opening Display..
+cur_time = 72.316628
+sudo ./app -l 2 -r sysm3=364
+Opening Display..
+cur_time = 72.327515
+sudo ./app -l 2 -r sysm3=364
+Opening Display..
+cur_time = 72.320648
+sudo ./app -l 2 -r sysm3=364
+Opening Display..
+cur_time = 72.321136
+Average time : m3=364,dsp=0 : 72.314473
+sudo ./app -l 2 -r sysm3=368
+Opening Display..
+cur_time = 73.110748
+sudo ./app -l 2 -r sysm3=368
+Opening Display..
+cur_time = 73.116272
+sudo ./app -l 2 -r sysm3=368
+Opening Display..
+cur_time = 73.106293
+sudo ./app -l 2 -r sysm3=368
+Opening Display..
+cur_time = 73.103485
+sudo ./app -l 2 -r sysm3=368
+Opening Display..
+cur_time = 73.105377
+Average time : m3=368,dsp=0 : 73.108435
+sudo ./app -l 2 -r sysm3=372
+Opening Display..
+cur_time = 73.896881
+sudo ./app -l 2 -r sysm3=372
+Opening Display..
+cur_time = 73.900085
+sudo ./app -l 2 -r sysm3=372
+Opening Display..
+cur_time = 73.891266
+sudo ./app -l 2 -r sysm3=372
+Opening Display..
+cur_time = 73.891968
+sudo ./app -l 2 -r sysm3=372
+Opening Display..
+cur_time = 73.900269
+Average time : m3=372,dsp=0 : 73.8960938
+sudo ./app -l 2 -r sysm3=376
+Opening Display..
+cur_time = 74.682983
+sudo ./app -l 2 -r sysm3=376
+Opening Display..
+cur_time = 74.677887
+sudo ./app -l 2 -r sysm3=376
+Opening Display..
+cur_time = 74.681061
+sudo ./app -l 2 -r sysm3=376
+Opening Display..
+cur_time = 74.620544
+sudo ./app -l 2 -r sysm3=376
+Opening Display..
+cur_time = 74.676781
+Average time : m3=376,dsp=0 : 74.6678512
+sudo ./app -l 2 -r sysm3=380
+Opening Display..
+cur_time = 75.463379
+sudo ./app -l 2 -r sysm3=380
+Opening Display..
+cur_time = 75.460846
+sudo ./app -l 2 -r sysm3=380
+Opening Display..
+cur_time = 75.456085
+sudo ./app -l 2 -r sysm3=380
+Opening Display..
+cur_time = 75.403625
+sudo ./app -l 2 -r sysm3=380
+Opening Display..
+cur_time = 75.462708
+Average time : m3=380,dsp=0 : 75.4493286
+sudo ./app -l 2 -r sysm3=384
+Opening Display..
+cur_time = 76.241058
+sudo ./app -l 2 -r sysm3=384
+Opening Display..
+cur_time = 76.242706
+sudo ./app -l 2 -r sysm3=384
+Opening Display..
+cur_time = 76.244690
+sudo ./app -l 2 -r sysm3=384
+Opening Display..
+cur_time = 76.243958
+sudo ./app -l 2 -r sysm3=384
+Opening Display..
+cur_time = 76.190399
+Average time : m3=384,dsp=0 : 76.2325622
+sudo ./app -l 2 -r sysm3=388
+Opening Display..
+cur_time = 77.037109
+sudo ./app -l 2 -r sysm3=388
+Opening Display..
+cur_time = 77.026978
+sudo ./app -l 2 -r sysm3=388
+Opening Display..
+cur_time = 77.031647
+sudo ./app -l 2 -r sysm3=388
+Opening Display..
+cur_time = 77.044617
+sudo ./app -l 2 -r sysm3=388
+Opening Display..
+cur_time = 77.039246
+Average time : m3=388,dsp=0 : 77.0359194
+sudo ./app -l 2 -r sysm3=392
+Opening Display..
+cur_time = 77.822784
+sudo ./app -l 2 -r sysm3=392
+Opening Display..
+cur_time = 77.827545
+sudo ./app -l 2 -r sysm3=392
+Opening Display..
+cur_time = 77.833374
+sudo ./app -l 2 -r sysm3=392
+Opening Display..
+cur_time = 77.829529
+sudo ./app -l 2 -r sysm3=392
+Opening Display..
+cur_time = 77.801422
+Average time : m3=392,dsp=0 : 77.8229308
+sudo ./app -l 2 -r sysm3=396
+Opening Display..
+cur_time = 78.620178
+sudo ./app -l 2 -r sysm3=396
+Opening Display..
+cur_time = 78.564911
+sudo ./app -l 2 -r sysm3=396
+Opening Display..
+cur_time = 78.611542
+sudo ./app -l 2 -r sysm3=396
+Opening Display..
+cur_time = 78.616272
+sudo ./app -l 2 -r sysm3=396
+Opening Display..
+cur_time = 78.614532
+Average time : m3=396,dsp=0 : 78.605487
+sudo ./app -l 2 -r sysm3=400
+Opening Display..
+cur_time = 79.400177
+sudo ./app -l 2 -r sysm3=400
+Opening Display..
+cur_time = 79.397736
+sudo ./app -l 2 -r sysm3=400
+Opening Display..
+cur_time = 79.396667
+sudo ./app -l 2 -r sysm3=400
+Opening Display..
+cur_time = 79.408852
+sudo ./app -l 2 -r sysm3=400
+Opening Display..
+cur_time = 79.393494
+Average time : m3=400,dsp=0 : 79.3993852
+sudo ./app -l 2 -r sysm3=404
+Opening Display..
+cur_time = 80.183372
+sudo ./app -l 2 -r sysm3=404
+Opening Display..
+cur_time = 80.178528
+sudo ./app -l 2 -r sysm3=404
+Opening Display..
+cur_time = 80.177246
+sudo ./app -l 2 -r sysm3=404
+Opening Display..
+cur_time = 80.181610
+sudo ./app -l 2 -r sysm3=404
+Opening Display..
+cur_time = 80.153656
+Average time : m3=404,dsp=0 : 80.1748824
+sudo ./app -l 2 -r sysm3=408
+Opening Display..
+cur_time = 80.966888
+sudo ./app -l 2 -r sysm3=408
+Opening Display..
+cur_time = 80.965088
+sudo ./app -l 2 -r sysm3=408
+Opening Display..
+cur_time = 80.953369
+sudo ./app -l 2 -r sysm3=408
+Opening Display..
+cur_time = 80.964050
+sudo ./app -l 2 -r sysm3=408
+Opening Display..
+cur_time = 80.957703
+Average time : m3=408,dsp=0 : 80.9614196
+sudo ./app -l 2 -r sysm3=412
+Opening Display..
+cur_time = 81.749176
+sudo ./app -l 2 -r sysm3=412
+Opening Display..
+cur_time = 81.750549
+sudo ./app -l 2 -r sysm3=412
+Opening Display..
+cur_time = 81.756203
+sudo ./app -l 2 -r sysm3=412
+Opening Display..
+cur_time = 81.750885
+sudo ./app -l 2 -r sysm3=412
+Opening Display..
+cur_time = 81.748322
+Average time : m3=412,dsp=0 : 81.751027
+sudo ./app -l 2 -r sysm3=416
+Opening Display..
+cur_time = 82.540527
+sudo ./app -l 2 -r sysm3=416
+Opening Display..
+cur_time = 82.540985
+sudo ./app -l 2 -r sysm3=416
+Opening Display..
+cur_time = 82.542938
+sudo ./app -l 2 -r sysm3=416
+Opening Display..
+cur_time = 82.544098
+sudo ./app -l 2 -r sysm3=416
+Opening Display..
+cur_time = 82.492584
+Average time : m3=416,dsp=0 : 82.5322264
+sudo ./app -l 2 -r sysm3=420
+Opening Display..
+cur_time = 83.281464
+sudo ./app -l 2 -r sysm3=420
+Opening Display..
+cur_time = 83.318634
+sudo ./app -l 2 -r sysm3=420
+Opening Display..
+cur_time = 83.320862
+sudo ./app -l 2 -r sysm3=420
+Opening Display..
+cur_time = 83.326576
+sudo ./app -l 2 -r sysm3=420
+Opening Display..
+cur_time = 83.327759
+Average time : m3=420,dsp=0 : 83.315059
+sudo ./app -l 2 -r sysm3=424
+Opening Display..
+cur_time = 84.091042
+sudo ./app -l 2 -r sysm3=424
+Opening Display..
+cur_time = 84.108551
+sudo ./app -l 2 -r sysm3=424
+Opening Display..
+cur_time = 84.110992
+sudo ./app -l 2 -r sysm3=424
+Opening Display..
+cur_time = 84.102814
+sudo ./app -l 2 -r sysm3=424
+Opening Display..
+cur_time = 84.060974
+Average time : m3=424,dsp=0 : 84.0948746
+sudo ./app -l 2 -r sysm3=428
+Opening Display..
+cur_time = 84.891205
+sudo ./app -l 2 -r sysm3=428
+Opening Display..
+cur_time = 84.890228
+sudo ./app -l 2 -r sysm3=428
+Opening Display..
+cur_time = 84.892731
+sudo ./app -l 2 -r sysm3=428
+Opening Display..
+cur_time = 84.885345
+sudo ./app -l 2 -r sysm3=428
+Opening Display..
+cur_time = 84.891174
+Average time : m3=428,dsp=0 : 84.8901366
+sudo ./app -l 2 -r sysm3=432
+Opening Display..
+cur_time = 85.685547
+sudo ./app -l 2 -r sysm3=432
+Opening Display..
+cur_time = 85.674469
+sudo ./app -l 2 -r sysm3=432
+Opening Display..
+cur_time = 85.674355
+sudo ./app -l 2 -r sysm3=432
+Opening Display..
+cur_time = 85.679604
+sudo ./app -l 2 -r sysm3=432
+Opening Display..
+cur_time = 85.679413
+Average time : m3=432,dsp=0 : 85.6786776
+sudo ./app -l 2 -r sysm3=436
+Opening Display..
+cur_time = 86.461731
+sudo ./app -l 2 -r sysm3=436
+Opening Display..
+cur_time = 86.426910
+sudo ./app -l 2 -r sysm3=436
+Opening Display..
+cur_time = 86.462585
+sudo ./app -l 2 -r sysm3=436
+Opening Display..
+cur_time = 86.467682
+sudo ./app -l 2 -r sysm3=436
+Opening Display..
+cur_time = 86.471649
+Average time : m3=436,dsp=0 : 86.4581114
+sudo ./app -l 2 -r sysm3=440
+Opening Display..
+cur_time = 87.253174
+sudo ./app -l 2 -r sysm3=440
+Opening Display..
+cur_time = 87.257469
+sudo ./app -l 2 -r sysm3=440
+Opening Display..
+cur_time = 87.255676
+sudo ./app -l 2 -r sysm3=440
+Opening Display..
+cur_time = 87.258423
+sudo ./app -l 2 -r sysm3=440
+Opening Display..
+cur_time = 87.259674
+Average time : m3=440,dsp=0 : 87.2568832
+sudo ./app -l 2 -r sysm3=444
+Opening Display..
+cur_time = 88.045746
+sudo ./app -l 2 -r sysm3=444
+Opening Display..
+cur_time = 88.049957
+sudo ./app -l 2 -r sysm3=444
+Opening Display..
+cur_time = 88.044250
+sudo ./app -l 2 -r sysm3=444
+Opening Display..
+cur_time = 88.047546
+sudo ./app -l 2 -r sysm3=444
+Opening Display..
+cur_time = 88.038605
+Average time : m3=444,dsp=0 : 88.0452208
+sudo ./app -l 2 -r sysm3=448
+Opening Display..
+cur_time = 88.828186
+sudo ./app -l 2 -r sysm3=448
+Opening Display..
+cur_time = 88.821533
+sudo ./app -l 2 -r sysm3=448
+Opening Display..
+cur_time = 88.826843
+sudo ./app -l 2 -r sysm3=448
+Opening Display..
+cur_time = 88.822968
+sudo ./app -l 2 -r sysm3=448
+Opening Display..
+cur_time = 88.820923
+Average time : m3=448,dsp=0 : 88.8240906
+sudo ./app -l 2 -r sysm3=452
+Opening Display..
+cur_time = 89.607758
+sudo ./app -l 2 -r sysm3=452
+Opening Display..
+cur_time = 89.606079
+sudo ./app -l 2 -r sysm3=452
+Opening Display..
+cur_time = 89.605133
+sudo ./app -l 2 -r sysm3=452
+Opening Display..
+cur_time = 89.604401
+sudo ./app -l 2 -r sysm3=452
+Opening Display..
+cur_time = 89.601990
+Average time : m3=452,dsp=0 : 89.6050722
+sudo ./app -l 2 -r sysm3=456
+Opening Display..
+cur_time = 90.395180
+sudo ./app -l 2 -r sysm3=456
+Opening Display..
+cur_time = 90.344421
+sudo ./app -l 2 -r sysm3=456
+Opening Display..
+cur_time = 90.393555
+sudo ./app -l 2 -r sysm3=456
+Opening Display..
+cur_time = 90.388245
+sudo ./app -l 2 -r sysm3=456
+Opening Display..
+cur_time = 90.392914
+Average time : m3=456,dsp=0 : 90.382863
+sudo ./app -l 2 -r sysm3=460
+Opening Display..
+cur_time = 91.178314
+sudo ./app -l 2 -r sysm3=460
+Opening Display..
+cur_time = 91.138245
+sudo ./app -l 2 -r sysm3=460
+Opening Display..
+cur_time = 91.181793
+sudo ./app -l 2 -r sysm3=460
+Opening Display..
+cur_time = 91.172363
+sudo ./app -l 2 -r sysm3=460
+Opening Display..
+cur_time = 91.181671
+Average time : m3=460,dsp=0 : 91.1704772
+sudo ./app -l 2 -r sysm3=464
+Opening Display..
+cur_time = 91.974152
+sudo ./app -l 2 -r sysm3=464
+Opening Display..
+cur_time = 91.960938
+sudo ./app -l 2 -r sysm3=464
+Opening Display..
+cur_time = 91.972534
+sudo ./app -l 2 -r sysm3=464
+Opening Display..
+cur_time = 91.968719
+sudo ./app -l 2 -r sysm3=464
+Opening Display..
+cur_time = 91.961731
+Average time : m3=464,dsp=0 : 91.9676148
+sudo ./app -l 2 -r sysm3=468
+Opening Display..
+cur_time = 92.744995
+sudo ./app -l 2 -r sysm3=468
+Opening Display..
+cur_time = 92.708771
+sudo ./app -l 2 -r sysm3=468
+Opening Display..
+cur_time = 92.756317
+sudo ./app -l 2 -r sysm3=468
+Opening Display..
+cur_time = 92.758209
+sudo ./app -l 2 -r sysm3=468
+Opening Display..
+cur_time = 92.757935
+Average time : m3=468,dsp=0 : 92.7452454
+sudo ./app -l 2 -r sysm3=472
+Opening Display..
+cur_time = 93.546997
+sudo ./app -l 2 -r sysm3=472
+Opening Display..
+cur_time = 93.541351
+sudo ./app -l 2 -r sysm3=472
+Opening Display..
+cur_time = 93.542786
+sudo ./app -l 2 -r sysm3=472
+Opening Display..
+cur_time = 93.542511
+sudo ./app -l 2 -r sysm3=472
+Opening Display..
+cur_time = 93.536499
+Average time : m3=472,dsp=0 : 93.5420288
+sudo ./app -l 2 -r sysm3=476
+Opening Display..
+cur_time = 94.324707
+sudo ./app -l 2 -r sysm3=476
+Opening Display..
+cur_time = 94.331909
+sudo ./app -l 2 -r sysm3=476
+Opening Display..
+cur_time = 94.323151
+sudo ./app -l 2 -r sysm3=476
+Opening Display..
+cur_time = 94.323151
+sudo ./app -l 2 -r sysm3=476
+Opening Display..
+cur_time = 94.324707
+Average time : m3=476,dsp=0 : 94.325525
+sudo ./app -l 2 -r sysm3=480
+Opening Display..
+cur_time = 95.112305
+sudo ./app -l 2 -r sysm3=480
+Opening Display..
+cur_time = 95.114876
+sudo ./app -l 2 -r sysm3=480
+Opening Display..
+cur_time = 95.118774
+sudo ./app -l 2 -r sysm3=480
+Opening Display..
+cur_time = 95.119751
+sudo ./app -l 2 -r sysm3=480
+Opening Display..
+cur_time = 95.118896
+Average time : m3=480,dsp=0 : 95.1169204
+sudo ./app -l 2 -r sysm3=484
+Opening Display..
+cur_time = 95.911041
+sudo ./app -l 2 -r sysm3=484
+Opening Display..
+cur_time = 95.904694
+sudo ./app -l 2 -r sysm3=484
+Opening Display..
+cur_time = 95.900787
+sudo ./app -l 2 -r sysm3=484
+Opening Display..
+cur_time = 95.913849
+sudo ./app -l 2 -r sysm3=484
+Opening Display..
+cur_time = 95.911407
+Average time : m3=484,dsp=0 : 95.9083556
+sudo ./app -l 2 -r sysm3=488
+Opening Display..
+cur_time = 96.697327
+sudo ./app -l 2 -r sysm3=488
+Opening Display..
+cur_time = 96.691589
+sudo ./app -l 2 -r sysm3=488
+Opening Display..
+cur_time = 96.698303
+sudo ./app -l 2 -r sysm3=488
+Opening Display..
+cur_time = 96.699463
+sudo ./app -l 2 -r sysm3=488
+Opening Display..
+cur_time = 96.693054
+Average time : m3=488,dsp=0 : 96.6959472
+sudo ./app -l 2 -r sysm3=492
+Opening Display..
+cur_time = 97.487488
+sudo ./app -l 2 -r sysm3=492
+Opening Display..
+cur_time = 97.486298
+sudo ./app -l 2 -r sysm3=492
+Opening Display..
+cur_time = 97.484497
+sudo ./app -l 2 -r sysm3=492
+Opening Display..
+cur_time = 97.442200
+sudo ./app -l 2 -r sysm3=492
+Opening Display..
+cur_time = 97.476875
+Average time : m3=492,dsp=0 : 97.4754716
+sudo ./app -l 2 -r sysm3=496
+Opening Display..
+cur_time = 98.269379
+sudo ./app -l 2 -r sysm3=496
+Opening Display..
+cur_time = 98.269501
+sudo ./app -l 2 -r sysm3=496
+Opening Display..
+cur_time = 98.270630
+sudo ./app -l 2 -r sysm3=496
+Opening Display..
+cur_time = 98.264374
+sudo ./app -l 2 -r sysm3=496
+Opening Display..
+cur_time = 98.267426
+Average time : m3=496,dsp=0 : 98.268262
+sudo ./app -l 2 -r sysm3=500
+Opening Display..
+cur_time = 99.046539
+sudo ./app -l 2 -r sysm3=500
+Opening Display..
+cur_time = 99.049805
+sudo ./app -l 2 -r sysm3=500
+Opening Display..
+cur_time = 99.048920
+sudo ./app -l 2 -r sysm3=500
+Opening Display..
+cur_time = 99.051666
+sudo ./app -l 2 -r sysm3=500
+Opening Display..
+cur_time = 99.051453
+Average time : m3=500,dsp=0 : 99.0496766
+sudo ./app -l 2 -r sysm3=504
+Opening Display..
+cur_time = 99.840813
+sudo ./app -l 2 -r sysm3=504
+Opening Display..
+cur_time = 99.845306
+sudo ./app -l 2 -r sysm3=504
+Opening Display..
+cur_time = 99.834137
+sudo ./app -l 2 -r sysm3=504
+Opening Display..
+cur_time = 99.839111
+sudo ./app -l 2 -r sysm3=504
+Opening Display..
+cur_time = 99.838692
+Average time : m3=504,dsp=0 : 99.8396118
+sudo ./app -l 2 -r sysm3=508
+Opening Display..
+cur_time = 100.623749
+sudo ./app -l 2 -r sysm3=508
+Opening Display..
+cur_time = 100.630493
+sudo ./app -l 2 -r sysm3=508
+Opening Display..
+cur_time = 100.630035
+sudo ./app -l 2 -r sysm3=508
+Opening Display..
+cur_time = 100.626770
+sudo ./app -l 2 -r sysm3=508
+Opening Display..
+cur_time = 100.627960
+Average time : m3=508,dsp=0 : 100.6278014
+sudo ./app -l 2 -r sysm3=512
+Opening Display..
+cur_time = 101.416992
+sudo ./app -l 2 -r sysm3=512
+Opening Display..
+cur_time = 101.418182
+sudo ./app -l 2 -r sysm3=512
+Opening Display..
+cur_time = 101.421295
+sudo ./app -l 2 -r sysm3=512
+Opening Display..
+cur_time = 101.416290
+sudo ./app -l 2 -r sysm3=512
+Opening Display..
+cur_time = 101.421051
+Average time : m3=512,dsp=0 : 101.418762
+sudo ./app -l 2 -r sysm3=516
+Opening Display..
+cur_time = 102.195068
+sudo ./app -l 2 -r sysm3=516
+Opening Display..
+cur_time = 102.196838
+sudo ./app -l 2 -r sysm3=516
+Opening Display..
+cur_time = 102.202240
+sudo ./app -l 2 -r sysm3=516
+Opening Display..
+cur_time = 102.199554
+sudo ./app -l 2 -r sysm3=516
+Opening Display..
+cur_time = 102.204651
+Average time : m3=516,dsp=0 : 102.1996702
+sudo ./app -l 2 -r sysm3=520
+Opening Display..
+cur_time = 102.980560
+sudo ./app -l 2 -r sysm3=520
+Opening Display..
+cur_time = 102.986237
+sudo ./app -l 2 -r sysm3=520
+Opening Display..
+cur_time = 102.988251
+sudo ./app -l 2 -r sysm3=520
+Opening Display..
+cur_time = 102.984863
+sudo ./app -l 2 -r sysm3=520
+Opening Display..
+cur_time = 102.985870
+Average time : m3=520,dsp=0 : 102.9851562
+sudo ./app -l 2 -r sysm3=524
+Opening Display..
+cur_time = 103.772552
+sudo ./app -l 2 -r sysm3=524
+Opening Display..
+cur_time = 103.765907
+sudo ./app -l 2 -r sysm3=524
+Opening Display..
+cur_time = 103.769562
+sudo ./app -l 2 -r sysm3=524
+Opening Display..
+cur_time = 103.767914
+sudo ./app -l 2 -r sysm3=524
+Opening Display..
+cur_time = 103.769897
+Average time : m3=524,dsp=0 : 103.7691664
+sudo ./app -l 2 -r sysm3=528
+Opening Display..
+cur_time = 104.565521
+sudo ./app -l 2 -r sysm3=528
+Opening Display..
+cur_time = 104.569336
+sudo ./app -l 2 -r sysm3=528
+Opening Display..
+cur_time = 104.563721
+sudo ./app -l 2 -r sysm3=528
+Opening Display..
+cur_time = 104.557549
+sudo ./app -l 2 -r sysm3=528
+Opening Display..
+cur_time = 104.517303
+Average time : m3=528,dsp=0 : 104.554686
+sudo ./app -l 2 -r sysm3=532
+Opening Display..
+cur_time = 105.351166
+sudo ./app -l 2 -r sysm3=532
+Opening Display..
+cur_time = 105.351379
+sudo ./app -l 2 -r sysm3=532
+Opening Display..
+cur_time = 105.348053
+sudo ./app -l 2 -r sysm3=532
+Opening Display..
+cur_time = 105.347198
+sudo ./app -l 2 -r sysm3=532
+Opening Display..
+cur_time = 105.344727
+Average time : m3=532,dsp=0 : 105.3485046
+sudo ./app -l 2 -r sysm3=536
+Opening Display..
+cur_time = 106.137260
+sudo ./app -l 2 -r sysm3=536
+Opening Display..
+cur_time = 106.134949
+sudo ./app -l 2 -r sysm3=536
+Opening Display..
+cur_time = 106.142883
+sudo ./app -l 2 -r sysm3=536
+Opening Display..
+cur_time = 106.134155
+sudo ./app -l 2 -r sysm3=536
+Opening Display..
+cur_time = 106.133118
+Average time : m3=536,dsp=0 : 106.136473
+sudo ./app -l 2 -r sysm3=540
+Opening Display..
+cur_time = 106.927277
+sudo ./app -l 2 -r sysm3=540
+Opening Display..
+cur_time = 106.920723
+sudo ./app -l 2 -r sysm3=540
+Opening Display..
+cur_time = 106.916504
+sudo ./app -l 2 -r sysm3=540
+Opening Display..
+cur_time = 106.922546
+sudo ./app -l 2 -r sysm3=540
+Opening Display..
+cur_time = 106.914795
+Average time : m3=540,dsp=0 : 106.920369
+sudo ./app -l 2 -r sysm3=544
+Opening Display..
+cur_time = 107.694237
+sudo ./app -l 2 -r sysm3=544
+Opening Display..
+cur_time = 107.702118
+sudo ./app -l 2 -r sysm3=544
+Opening Display..
+cur_time = 107.702271
+sudo ./app -l 2 -r sysm3=544
+Opening Display..
+cur_time = 107.706848
+sudo ./app -l 2 -r sysm3=544
+Opening Display..
+cur_time = 107.700256
+Average time : m3=544,dsp=0 : 107.701146
+sudo ./app -l 2 -r sysm3=548
+Opening Display..
+cur_time = 108.490143
+sudo ./app -l 2 -r sysm3=548
+Opening Display..
+cur_time = 108.481934
+sudo ./app -l 2 -r sysm3=548
+Opening Display..
+cur_time = 108.484131
+sudo ./app -l 2 -r sysm3=548
+Opening Display..
+cur_time = 108.483398
+sudo ./app -l 2 -r sysm3=548
+Opening Display..
+cur_time = 108.482086
+Average time : m3=548,dsp=0 : 108.4843384
+sudo ./app -l 2 -r sysm3=552
+Opening Display..
+cur_time = 109.280914
+sudo ./app -l 2 -r sysm3=552
+Opening Display..
+cur_time = 109.279785
+sudo ./app -l 2 -r sysm3=552
+Opening Display..
+cur_time = 109.275879
+sudo ./app -l 2 -r sysm3=552
+Opening Display..
+cur_time = 109.268028
+sudo ./app -l 2 -r sysm3=552
+Opening Display..
+cur_time = 109.281128
+Average time : m3=552,dsp=0 : 109.2771468
+sudo ./app -l 2 -r sysm3=556
+Opening Display..
+cur_time = 110.065948
+sudo ./app -l 2 -r sysm3=556
+Opening Display..
+cur_time = 110.069885
+sudo ./app -l 2 -r sysm3=556
+Opening Display..
+cur_time = 110.076263
+sudo ./app -l 2 -r sysm3=556
+Opening Display..
+cur_time = 110.062836
+sudo ./app -l 2 -r sysm3=556
+Opening Display..
+cur_time = 110.066254
+Average time : m3=556,dsp=0 : 110.0682372
+sudo ./app -l 2 -r sysm3=560
+Opening Display..
+cur_time = 110.853607
+sudo ./app -l 2 -r sysm3=560
+Opening Display..
+cur_time = 110.854340
+sudo ./app -l 2 -r sysm3=560
+Opening Display..
+cur_time = 110.854248
+sudo ./app -l 2 -r sysm3=560
+Opening Display..
+cur_time = 110.855927
+sudo ./app -l 2 -r sysm3=560
+Opening Display..
+cur_time = 110.853271
+Average time : m3=560,dsp=0 : 110.8542786
+sudo ./app -l 2 -r sysm3=564
+Opening Display..
+cur_time = 111.645264
+sudo ./app -l 2 -r sysm3=564
+Opening Display..
+cur_time = 111.631004
+sudo ./app -l 2 -r sysm3=564
+Opening Display..
+cur_time = 111.637299
+sudo ./app -l 2 -r sysm3=564
+Opening Display..
+cur_time = 111.628479
+sudo ./app -l 2 -r sysm3=564
+Opening Display..
+cur_time = 111.630371
+Average time : m3=564,dsp=0 : 111.6344834
+sudo ./app -l 2 -r sysm3=568
+Opening Display..
+cur_time = 112.419495
+sudo ./app -l 2 -r sysm3=568
+Opening Display..
+cur_time = 112.420959
+sudo ./app -l 2 -r sysm3=568
+Opening Display..
+cur_time = 112.426544
+sudo ./app -l 2 -r sysm3=568
+Opening Display..
+cur_time = 112.423187
+sudo ./app -l 2 -r sysm3=568
+Opening Display..
+cur_time = 112.426056
+Average time : m3=568,dsp=0 : 112.4232482
+sudo ./app -l 2 -r sysm3=572
+Opening Display..
+cur_time = 113.205200
+sudo ./app -l 2 -r sysm3=572
+Opening Display..
+cur_time = 113.211273
+sudo ./app -l 2 -r sysm3=572
+Opening Display..
+cur_time = 113.202385
+sudo ./app -l 2 -r sysm3=572
+Opening Display..
+cur_time = 113.207275
+sudo ./app -l 2 -r sysm3=572
+Opening Display..
+cur_time = 113.216461
+Average time : m3=572,dsp=0 : 113.2085188
+sudo ./app -l 2 -r sysm3=576
+Opening Display..
+cur_time = 113.996796
+sudo ./app -l 2 -r sysm3=576
+Opening Display..
+cur_time = 114.001862
+sudo ./app -l 2 -r sysm3=576
+Opening Display..
+cur_time = 113.992676
+sudo ./app -l 2 -r sysm3=576
+Opening Display..
+cur_time = 114.005005
+sudo ./app -l 2 -r sysm3=576
+Opening Display..
+cur_time = 114.014526
+Average time : m3=576,dsp=0 : 114.002173
+sudo ./app -l 2 -r sysm3=580
+Opening Display..
+cur_time = 114.795593
+sudo ./app -l 2 -r sysm3=580
+Opening Display..
+cur_time = 114.789467
+sudo ./app -l 2 -r sysm3=580
+Opening Display..
+cur_time = 114.794434
+sudo ./app -l 2 -r sysm3=580
+Opening Display..
+cur_time = 114.791504
+sudo ./app -l 2 -r sysm3=580
+Opening Display..
+cur_time = 114.779175
+Average time : m3=580,dsp=0 : 114.7900346
+sudo ./app -l 2 -r sysm3=584
+Opening Display..
+cur_time = 115.575562
+sudo ./app -l 2 -r sysm3=584
+Opening Display..
+cur_time = 115.542816
+sudo ./app -l 2 -r sysm3=584
+Opening Display..
+cur_time = 115.569427
+sudo ./app -l 2 -r sysm3=584
+Opening Display..
+cur_time = 115.579010
+sudo ./app -l 2 -r sysm3=584
+Opening Display..
+cur_time = 115.574249
+Average time : m3=584,dsp=0 : 115.5682128
+sudo ./app -l 2 -r sysm3=588
+Opening Display..
+cur_time = 116.359039
+sudo ./app -l 2 -r sysm3=588
+Opening Display..
+cur_time = 116.356171
+sudo ./app -l 2 -r sysm3=588
+Opening Display..
+cur_time = 116.357239
+sudo ./app -l 2 -r sysm3=588
+Opening Display..
+cur_time = 116.359070
+sudo ./app -l 2 -r sysm3=588
+Opening Display..
+cur_time = 116.326385
+Average time : m3=588,dsp=0 : 116.3515808
+sudo ./app -l 2 -r sysm3=592
+Opening Display..
+cur_time = 117.143158
+sudo ./app -l 2 -r sysm3=592
+Opening Display..
+cur_time = 117.110962
+sudo ./app -l 2 -r sysm3=592
+Opening Display..
+cur_time = 117.148834
+sudo ./app -l 2 -r sysm3=592
+Opening Display..
+cur_time = 117.131714
+sudo ./app -l 2 -r sysm3=592
+Opening Display..
+cur_time = 117.147461
+Average time : m3=592,dsp=0 : 117.1364258
+sudo ./app -l 2 -r sysm3=596
+Opening Display..
+cur_time = 117.936195
+sudo ./app -l 2 -r sysm3=596
+Opening Display..
+cur_time = 117.938805
+sudo ./app -l 2 -r sysm3=596
+Opening Display..
+cur_time = 117.886658
+sudo ./app -l 2 -r sysm3=596
+Opening Display..
+cur_time = 117.923706
+sudo ./app -l 2 -r sysm3=596
+Opening Display..
+cur_time = 117.896057
+Average time : m3=596,dsp=0 : 117.9162842
+sudo ./app -l 2 -r sysm3=600
+Opening Display..
+cur_time = 118.721680
+sudo ./app -l 2 -r sysm3=600
+Opening Display..
+cur_time = 118.720337
+sudo ./app -l 2 -r sysm3=600
+Opening Display..
+cur_time = 118.720467
+sudo ./app -l 2 -r sysm3=600
+Opening Display..
+cur_time = 118.679810
+sudo ./app -l 2 -r sysm3=600
+Opening Display..
+cur_time = 118.713623
+Average time : m3=600,dsp=0 : 118.7111834
+sudo ./app -l 2 -r sysm3=604
+Opening Display..
+cur_time = 119.504486
+sudo ./app -l 2 -r sysm3=604
+Opening Display..
+cur_time = 119.504944
+sudo ./app -l 2 -r sysm3=604
+Opening Display..
+cur_time = 119.503876
+sudo ./app -l 2 -r sysm3=604
+Opening Display..
+cur_time = 119.507507
+sudo ./app -l 2 -r sysm3=604
+Opening Display..
+cur_time = 119.506531
+Average time : m3=604,dsp=0 : 119.5054688
+sudo ./app -l 2 -r sysm3=608
+Opening Display..
+cur_time = 120.294708
+sudo ./app -l 2 -r sysm3=608
+Opening Display..
+cur_time = 120.292755
+sudo ./app -l 2 -r sysm3=608
+Opening Display..
+cur_time = 120.286438
+sudo ./app -l 2 -r sysm3=608
+Opening Display..
+cur_time = 120.285767
+sudo ./app -l 2 -r sysm3=608
+Opening Display..
+cur_time = 120.285034
+Average time : m3=608,dsp=0 : 120.2889404
+sudo ./app -l 2 -r sysm3=612
+Opening Display..
+cur_time = 121.071869
+sudo ./app -l 2 -r sysm3=612
+Opening Display..
+cur_time = 121.076202
+sudo ./app -l 2 -r sysm3=612
+Opening Display..
+cur_time = 121.073792
+sudo ./app -l 2 -r sysm3=612
+Opening Display..
+cur_time = 121.070465
+sudo ./app -l 2 -r sysm3=612
+Opening Display..
+cur_time = 121.069427
+Average time : m3=612,dsp=0 : 121.072351
+sudo ./app -l 2 -r sysm3=616
+Opening Display..
+cur_time = 121.859985
+sudo ./app -l 2 -r sysm3=616
+Opening Display..
+cur_time = 121.862030
+sudo ./app -l 2 -r sysm3=616
+Opening Display..
+cur_time = 121.863434
+sudo ./app -l 2 -r sysm3=616
+Opening Display..
+cur_time = 121.858337
+sudo ./app -l 2 -r sysm3=616
+Opening Display..
+cur_time = 121.858398
+Average time : m3=616,dsp=0 : 121.8604368
+sudo ./app -l 2 -r sysm3=620
+Opening Display..
+cur_time = 122.653870
+sudo ./app -l 2 -r sysm3=620
+Opening Display..
+cur_time = 122.646812
+sudo ./app -l 2 -r sysm3=620
+Opening Display..
+cur_time = 122.654510
+sudo ./app -l 2 -r sysm3=620
+Opening Display..
+cur_time = 122.650604
+sudo ./app -l 2 -r sysm3=620
+Opening Display..
+cur_time = 122.650055
+Average time : m3=620,dsp=0 : 122.6511702
+sudo ./app -l 2 -r sysm3=624
+Opening Display..
+cur_time = 123.437683
+sudo ./app -l 2 -r sysm3=624
+Opening Display..
+cur_time = 123.442749
+sudo ./app -l 2 -r sysm3=624
+Opening Display..
+cur_time = 123.445160
+sudo ./app -l 2 -r sysm3=624
+Opening Display..
+cur_time = 123.444763
+sudo ./app -l 2 -r sysm3=624
+Opening Display..
+cur_time = 123.441833
+Average time : m3=624,dsp=0 : 123.4424376
+sudo ./app -l 2 -r sysm3=628
+Opening Display..
+cur_time = 124.223511
+sudo ./app -l 2 -r sysm3=628
+Opening Display..
+cur_time = 124.221954
+sudo ./app -l 2 -r sysm3=628
+Opening Display..
+cur_time = 124.223541
+sudo ./app -l 2 -r sysm3=628
+Opening Display..
+cur_time = 124.228516
+sudo ./app -l 2 -r sysm3=628
+Opening Display..
+cur_time = 124.224579
+Average time : m3=628,dsp=0 : 124.2244202
+sudo ./app -l 2 -r sysm3=632
+Opening Display..
+cur_time = 125.007263
+sudo ./app -l 2 -r sysm3=632
+Opening Display..
+cur_time = 125.006897
+sudo ./app -l 2 -r sysm3=632
+Opening Display..
+cur_time = 125.005554
+sudo ./app -l 2 -r sysm3=632
+Opening Display..
+cur_time = 125.007294
+sudo ./app -l 2 -r sysm3=632
+Opening Display..
+cur_time = 124.997276
+Average time : m3=632,dsp=0 : 125.0048568
+sudo ./app -l 2 -r sysm3=636
+Opening Display..
+cur_time = 125.760010
+sudo ./app -l 2 -r sysm3=636
+Opening Display..
+cur_time = 125.784851
+sudo ./app -l 2 -r sysm3=636
+Opening Display..
+cur_time = 125.794563
+sudo ./app -l 2 -r sysm3=636
+Opening Display..
+cur_time = 125.797211
+sudo ./app -l 2 -r sysm3=636
+Opening Display..
+cur_time = 125.798126
+Average time : m3=636,dsp=0 : 125.7869522
+sudo ./app -l 2 -r sysm3=640
+Opening Display..
+cur_time = 126.575043
+sudo ./app -l 2 -r sysm3=640
+Opening Display..
+cur_time = 126.576515
+sudo ./app -l 2 -r sysm3=640
+Opening Display..
+cur_time = 126.575562
+sudo ./app -l 2 -r sysm3=640
+Opening Display..
+cur_time = 126.579041
+sudo ./app -l 2 -r sysm3=640
+Opening Display..
+cur_time = 126.584747
+Average time : m3=640,dsp=0 : 126.5781816
+sudo ./app -l 2 -r sysm3=644
+Opening Display..
+cur_time = 127.373688
+sudo ./app -l 2 -r sysm3=644
+Opening Display..
+cur_time = 127.377136
+sudo ./app -l 2 -r sysm3=644
+Opening Display..
+cur_time = 127.369232
+sudo ./app -l 2 -r sysm3=644
+Opening Display..
+cur_time = 127.371582
+sudo ./app -l 2 -r sysm3=644
+Opening Display..
+cur_time = 127.373779
+Average time : m3=644,dsp=0 : 127.3730834
+sudo ./app -l 2 -r sysm3=648
+Opening Display..
+cur_time = 128.146240
+sudo ./app -l 2 -r sysm3=648
+Opening Display..
+cur_time = 128.157318
+sudo ./app -l 2 -r sysm3=648
+Opening Display..
+cur_time = 128.160095
+sudo ./app -l 2 -r sysm3=648
+Opening Display..
+cur_time = 128.152863
+sudo ./app -l 2 -r sysm3=648
+Opening Display..
+cur_time = 128.158905
+Average time : m3=648,dsp=0 : 128.1550842
+sudo ./app -l 2 -r sysm3=652
+Opening Display..
+cur_time = 128.934265
+sudo ./app -l 2 -r sysm3=652
+Opening Display..
+cur_time = 128.942169
+sudo ./app -l 2 -r sysm3=652
+Opening Display..
+cur_time = 128.942810
+sudo ./app -l 2 -r sysm3=652
+Opening Display..
+cur_time = 128.943573
+sudo ./app -l 2 -r sysm3=652
+Opening Display..
+cur_time = 128.945221
+Average time : m3=652,dsp=0 : 128.9416076
+sudo ./app -l 2 -r sysm3=656
+Opening Display..
+cur_time = 129.722900
+sudo ./app -l 2 -r sysm3=656
+Opening Display..
+cur_time = 129.722595
+sudo ./app -l 2 -r sysm3=656
+Opening Display..
+cur_time = 129.697144
+sudo ./app -l 2 -r sysm3=656
+Opening Display..
+cur_time = 129.697144
+sudo ./app -l 2 -r sysm3=656
+Opening Display..
+cur_time = 129.718994
+Average time : m3=656,dsp=0 : 129.7117554
+sudo ./app -l 2 -r sysm3=660
+Opening Display..
+cur_time = 130.511902
+sudo ./app -l 2 -r sysm3=660
+Opening Display..
+cur_time = 130.482208
+sudo ./app -l 2 -r sysm3=660
+Opening Display..
+cur_time = 130.511169
+sudo ./app -l 2 -r sysm3=660
+Opening Display..
+cur_time = 130.511200
+sudo ./app -l 2 -r sysm3=660
+Opening Display..
+cur_time = 130.487335
+Average time : m3=660,dsp=0 : 130.5007628
+sudo ./app -l 2 -r sysm3=664
+Opening Display..
+cur_time = 131.316284
+sudo ./app -l 2 -r sysm3=664
+Opening Display..
+cur_time = 131.282654
+sudo ./app -l 2 -r sysm3=664
+Opening Display..
+cur_time = 131.299377
+sudo ./app -l 2 -r sysm3=664
+Opening Display..
+cur_time = 131.315063
+sudo ./app -l 2 -r sysm3=664
+Opening Display..
+cur_time = 131.312500
+Average time : m3=664,dsp=0 : 131.3051756
+sudo ./app -l 2 -r sysm3=668
+Opening Display..
+cur_time = 132.103485
+sudo ./app -l 2 -r sysm3=668
+Opening Display..
+cur_time = 132.098907
+sudo ./app -l 2 -r sysm3=668
+Opening Display..
+cur_time = 132.105774
+sudo ./app -l 2 -r sysm3=668
+Opening Display..
+cur_time = 132.105438
+sudo ./app -l 2 -r sysm3=668
+Opening Display..
+cur_time = 132.100922
+Average time : m3=668,dsp=0 : 132.1029052
+sudo ./app -l 2 -r sysm3=672
+Opening Display..
+cur_time = 132.891479
+sudo ./app -l 2 -r sysm3=672
+Opening Display..
+cur_time = 132.889099
+sudo ./app -l 2 -r sysm3=672
+Opening Display..
+cur_time = 132.885681
+sudo ./app -l 2 -r sysm3=672
+Opening Display..
+cur_time = 132.896393
+sudo ./app -l 2 -r sysm3=672
+Opening Display..
+cur_time = 132.891022
+Average time : m3=672,dsp=0 : 132.8907348
+sudo ./app -l 2 -r sysm3=676
+Opening Display..
+cur_time = 133.649109
+sudo ./app -l 2 -r sysm3=676
+Opening Display..
+cur_time = 133.677002
+sudo ./app -l 2 -r sysm3=676
+Opening Display..
+cur_time = 133.674774
+sudo ./app -l 2 -r sysm3=676
+Opening Display..
+cur_time = 133.652435
+sudo ./app -l 2 -r sysm3=676
+Opening Display..
+cur_time = 133.677277
+Average time : m3=676,dsp=0 : 133.6661194
+sudo ./app -l 2 -r sysm3=680
+Opening Display..
+cur_time = 134.461517
+sudo ./app -l 2 -r sysm3=680
+Opening Display..
+cur_time = 134.460846
+sudo ./app -l 2 -r sysm3=680
+Opening Display..
+cur_time = 134.463440
+sudo ./app -l 2 -r sysm3=680
+Opening Display..
+cur_time = 134.461060
+sudo ./app -l 2 -r sysm3=680
+Opening Display..
+cur_time = 134.442108
+Average time : m3=680,dsp=0 : 134.4577942
+sudo ./app -l 2 -r sysm3=684
+Opening Display..
+cur_time = 135.227173
+sudo ./app -l 2 -r sysm3=684
+Opening Display..
+cur_time = 135.250793
+sudo ./app -l 2 -r sysm3=684
+Opening Display..
+cur_time = 135.242126
+sudo ./app -l 2 -r sysm3=684
+Opening Display..
+cur_time = 135.246613
+sudo ./app -l 2 -r sysm3=684
+Opening Display..
+cur_time = 135.217346
+Average time : m3=684,dsp=0 : 135.2368102
+sudo ./app -l 2 -r sysm3=688
+Opening Display..
+cur_time = 136.029358
+sudo ./app -l 2 -r sysm3=688
+Opening Display..
+cur_time = 136.031067
+sudo ./app -l 2 -r sysm3=688
+Opening Display..
+cur_time = 136.036743
+sudo ./app -l 2 -r sysm3=688
+Opening Display..
+cur_time = 136.009491
+sudo ./app -l 2 -r sysm3=688
+Opening Display..
+cur_time = 136.037567
+Average time : m3=688,dsp=0 : 136.0288452
+sudo ./app -l 2 -r sysm3=692
+Opening Display..
+cur_time = 136.821350
+sudo ./app -l 2 -r sysm3=692
+Opening Display..
+cur_time = 136.825897
+sudo ./app -l 2 -r sysm3=692
+Opening Display..
+cur_time = 136.825043
+sudo ./app -l 2 -r sysm3=692
+Opening Display..
+cur_time = 136.829834
+sudo ./app -l 2 -r sysm3=692
+Opening Display..
+cur_time = 136.795166
+Average time : m3=692,dsp=0 : 136.819458
+sudo ./app -l 2 -r sysm3=696
+Opening Display..
+cur_time = 137.608337
+sudo ./app -l 2 -r sysm3=696
+Opening Display..
+cur_time = 137.593414
+sudo ./app -l 2 -r sysm3=696
+Opening Display..
+cur_time = 137.606506
+sudo ./app -l 2 -r sysm3=696
+Opening Display..
+cur_time = 137.599899
+sudo ./app -l 2 -r sysm3=696
+Opening Display..
+cur_time = 137.568604
+Average time : m3=696,dsp=0 : 137.595352
+sudo ./app -l 2 -r sysm3=700
+Opening Display..
+cur_time = 138.386169
+sudo ./app -l 2 -r sysm3=700
+Opening Display..
+cur_time = 138.384918
+sudo ./app -l 2 -r sysm3=700
+Opening Display..
+cur_time = 138.366577
+sudo ./app -l 2 -r sysm3=700
+Opening Display..
+cur_time = 138.287598
+sudo ./app -l 2 -r sysm3=700
+Opening Display..
+cur_time = 138.300751
+Average time : m3=700,dsp=0 : 138.3452026
+sudo ./app -l 2 -r sysm3=704
+Opening Display..
+cur_time = 139.091278
+sudo ./app -l 2 -r sysm3=704
+Opening Display..
+cur_time = 139.165161
+sudo ./app -l 2 -r sysm3=704
+Opening Display..
+cur_time = 139.168884
+sudo ./app -l 2 -r sysm3=704
+Opening Display..
+cur_time = 139.140503
+sudo ./app -l 2 -r sysm3=704
+Opening Display..
+cur_time = 139.185577
+Average time : m3=704,dsp=0 : 139.1502806
+sudo ./app -l 2 -r sysm3=708
+Opening Display..
+cur_time = 139.944977
+sudo ./app -l 2 -r sysm3=708
+Opening Display..
+cur_time = 139.951508
+sudo ./app -l 2 -r sysm3=708
+Opening Display..
+cur_time = 139.892883
+sudo ./app -l 2 -r sysm3=708
+Opening Display..
+cur_time = 139.863785
+sudo ./app -l 2 -r sysm3=708
+Opening Display..
+cur_time = 139.835236
+Average time : m3=708,dsp=0 : 139.8976778
+sudo ./app -l 2 -r sysm3=712
+Opening Display..
+cur_time = 140.642242
+sudo ./app -l 2 -r sysm3=712
+Opening Display..
+cur_time = 140.642334
+sudo ./app -l 2 -r sysm3=712
+Opening Display..
+cur_time = 140.728027
+sudo ./app -l 2 -r sysm3=712
+Opening Display..
+cur_time = 140.694916
+sudo ./app -l 2 -r sysm3=712
+Opening Display..
+cur_time = 140.816315
+Average time : m3=712,dsp=0 : 140.7047668
+sudo ./app -l 2 -r sysm3=716
+Opening Display..
+cur_time = 141.505981
+sudo ./app -l 2 -r sysm3=716
+Opening Display..
+cur_time = 141.448853
+sudo ./app -l 2 -r sysm3=716
+Opening Display..
+cur_time = 141.440796
+sudo ./app -l 2 -r sysm3=716
+Opening Display..
+cur_time = 141.442596
+sudo ./app -l 2 -r sysm3=716
+Opening Display..
+cur_time = 141.522003
+Average time : m3=716,dsp=0 : 141.4720458
+sudo ./app -l 2 -r sysm3=720
+Opening Display..
+cur_time = 142.327667
+sudo ./app -l 2 -r sysm3=720
+Opening Display..
+cur_time = 142.319733
+sudo ./app -l 2 -r sysm3=720
+Opening Display..
+cur_time = 142.319611
+sudo ./app -l 2 -r sysm3=720
+Opening Display..
+cur_time = 142.296509
+sudo ./app -l 2 -r sysm3=720
+Opening Display..
+cur_time = 142.264404
+Average time : m3=720,dsp=0 : 142.3055848
+sudo ./app -l 2 -r sysm3=724
+Opening Display..
+cur_time = 143.051895
+sudo ./app -l 2 -r sysm3=724
+Opening Display..
+cur_time = 143.046173
+sudo ./app -l 2 -r sysm3=724
+Opening Display..
+cur_time = 143.094406
+sudo ./app -l 2 -r sysm3=724
+Opening Display..
+cur_time = 143.147125
+sudo ./app -l 2 -r sysm3=724
+Opening Display..
+cur_time = 142.940186
+Average time : m3=724,dsp=0 : 143.055957
+sudo ./app -l 2 -r sysm3=728
+Opening Display..
+cur_time = 143.896057
+sudo ./app -l 2 -r sysm3=728
+Opening Display..
+cur_time = 143.824402
+sudo ./app -l 2 -r sysm3=728
+Opening Display..
+cur_time = 143.842468
+sudo ./app -l 2 -r sysm3=728
+Opening Display..
+cur_time = 143.972565
+sudo ./app -l 2 -r sysm3=728
+Opening Display..
+cur_time = 143.924255
+Average time : m3=728,dsp=0 : 143.8919494
+sudo ./app -l 2 -r sysm3=732
+Opening Display..
+cur_time = 144.712128
+sudo ./app -l 2 -r sysm3=732
+Opening Display..
+cur_time = 144.707794
+sudo ./app -l 2 -r sysm3=732
+Opening Display..
+cur_time = 144.675735
+sudo ./app -l 2 -r sysm3=732
+Opening Display..
+cur_time = 144.726471
+sudo ./app -l 2 -r sysm3=732
+Opening Display..
+cur_time = 144.616028
+Average time : m3=732,dsp=0 : 144.6876312
+sudo ./app -l 2 -r sysm3=736
+Opening Display..
+cur_time = 145.499573
+sudo ./app -l 2 -r sysm3=736
+Opening Display..
+cur_time = 145.544830
+sudo ./app -l 2 -r sysm3=736
+Opening Display..
+cur_time = 145.519257
+sudo ./app -l 2 -r sysm3=736
+Opening Display..
+cur_time = 145.455322
+sudo ./app -l 2 -r sysm3=736
+Opening Display..
+cur_time = 145.474823
+Average time : m3=736,dsp=0 : 145.498761
+sudo ./app -l 2 -r sysm3=740
+Opening Display..
+cur_time = 146.428284
+sudo ./app -l 2 -r sysm3=740
+Opening Display..
+cur_time = 146.334824
+sudo ./app -l 2 -r sysm3=740
+Opening Display..
+cur_time = 146.261383
+sudo ./app -l 2 -r sysm3=740
+Opening Display..
+cur_time = 146.393372
+sudo ./app -l 2 -r sysm3=740
+Opening Display..
+cur_time = 146.356628
+Average time : m3=740,dsp=0 : 146.3548982
+sudo ./app -l 2 -r sysm3=744
+Opening Display..
+cur_time = 147.097839
+sudo ./app -l 2 -r sysm3=744
+Opening Display..
+cur_time = 147.113647
+sudo ./app -l 2 -r sysm3=744
+Opening Display..
+cur_time = 147.124313
+sudo ./app -l 2 -r sysm3=744
+Opening Display..
+cur_time = 147.180786
+sudo ./app -l 2 -r sysm3=744
+Opening Display..
+cur_time = 147.095917
+Average time : m3=744,dsp=0 : 147.1225004
+sudo ./app -l 2 -r sysm3=748
+Opening Display..
+cur_time = 147.803238
+sudo ./app -l 2 -r sysm3=748
+Opening Display..
+cur_time = 147.822571
+sudo ./app -l 2 -r sysm3=748
+Opening Display..
+cur_time = 147.762848
+sudo ./app -l 2 -r sysm3=748
+Opening Display..
+cur_time = 147.835052
+sudo ./app -l 2 -r sysm3=748
+Opening Display..
+cur_time = 147.914215
+Average time : m3=748,dsp=0 : 147.8275848
+sudo ./app -l 2 -r sysm3=752
+Opening Display..
+cur_time = 148.675964
+sudo ./app -l 2 -r sysm3=752
+Opening Display..
+cur_time = 148.604095
+sudo ./app -l 2 -r sysm3=752
+Opening Display..
+cur_time = 148.719696
+sudo ./app -l 2 -r sysm3=752
+Opening Display..
+cur_time = 148.564636
+sudo ./app -l 2 -r sysm3=752
+Opening Display..
+cur_time = 148.589661
+Average time : m3=752,dsp=0 : 148.6308104
+sudo ./app -l 2 -r sysm3=756
+Opening Display..
+cur_time = 149.427719
+sudo ./app -l 2 -r sysm3=756
+Opening Display..
+cur_time = 149.339325
+sudo ./app -l 2 -r sysm3=756
+Opening Display..
+cur_time = 149.339569
+sudo ./app -l 2 -r sysm3=756
+Opening Display..
+cur_time = 149.447144
+sudo ./app -l 2 -r sysm3=756
+Opening Display..
+cur_time = 149.445343
+Average time : m3=756,dsp=0 : 149.39982
+sudo ./app -l 2 -r sysm3=760
+Opening Display..
+cur_time = 150.150482
+sudo ./app -l 2 -r sysm3=760
+Opening Display..
+cur_time = 150.152893
+sudo ./app -l 2 -r sysm3=760
+Opening Display..
+cur_time = 150.261230
+sudo ./app -l 2 -r sysm3=760
+Opening Display..
+cur_time = 150.139679
+sudo ./app -l 2 -r sysm3=760
+Opening Display..
+cur_time = 150.236908
+Average time : m3=760,dsp=0 : 150.1882384
+sudo ./app -l 2 -r sysm3=764
+Opening Display..
+cur_time = 151.017593
+sudo ./app -l 2 -r sysm3=764
+Opening Display..
+cur_time = 151.022614
+sudo ./app -l 2 -r sysm3=764
+Opening Display..
+cur_time = 150.976135
+sudo ./app -l 2 -r sysm3=764
+Opening Display..
+cur_time = 150.989441
+sudo ./app -l 2 -r sysm3=764
+Opening Display..
+cur_time = 150.955383
+Average time : m3=764,dsp=0 : 150.9922332
+sudo ./app -l 2 -r sysm3=768
+Opening Display..
+cur_time = 151.749420
+sudo ./app -l 2 -r sysm3=768
+Opening Display..
+cur_time = 151.771515
+sudo ./app -l 2 -r sysm3=768
+Opening Display..
+cur_time = 151.752350
+sudo ./app -l 2 -r sysm3=768
+Opening Display..
+cur_time = 151.772095
+sudo ./app -l 2 -r sysm3=768
+Opening Display..
+cur_time = 151.703644
+Average time : m3=768,dsp=0 : 151.7498048
+sudo ./app -l 2 -r sysm3=772
+Opening Display..
+cur_time = 152.483673
+sudo ./app -l 2 -r sysm3=772
+Opening Display..
+cur_time = 152.498932
+sudo ./app -l 2 -r sysm3=772
+Opening Display..
+cur_time = 152.548492
+sudo ./app -l 2 -r sysm3=772
+Opening Display..
+cur_time = 152.564423
+sudo ./app -l 2 -r sysm3=772
+Opening Display..
+cur_time = 152.554993
+Average time : m3=772,dsp=0 : 152.5301026
+sudo ./app -l 2 -r sysm3=776
+Opening Display..
+cur_time = 153.359375
+sudo ./app -l 2 -r sysm3=776
+Opening Display..
+cur_time = 153.296173
+sudo ./app -l 2 -r sysm3=776
+Opening Display..
+cur_time = 153.370026
+sudo ./app -l 2 -r sysm3=776
+Opening Display..
+cur_time = 153.363617
+sudo ./app -l 2 -r sysm3=776
+Opening Display..
+cur_time = 153.298950
+Average time : m3=776,dsp=0 : 153.3376282
+sudo ./app -l 2 -r sysm3=780
+Opening Display..
+cur_time = 154.110519
+sudo ./app -l 2 -r sysm3=780
+Opening Display..
+cur_time = 154.174225
+sudo ./app -l 2 -r sysm3=780
+Opening Display..
+cur_time = 154.087753
+sudo ./app -l 2 -r sysm3=780
+Opening Display..
+cur_time = 154.047028
+sudo ./app -l 2 -r sysm3=780
+Opening Display..
+cur_time = 154.094330
+Average time : m3=780,dsp=0 : 154.102771
+sudo ./app -l 2 -r sysm3=784
+Opening Display..
+cur_time = 154.861420
+sudo ./app -l 2 -r sysm3=784
+Opening Display..
+cur_time = 154.875854
+sudo ./app -l 2 -r sysm3=784
+Opening Display..
+cur_time = 154.942932
+sudo ./app -l 2 -r sysm3=784
+Opening Display..
+cur_time = 154.863617
+sudo ./app -l 2 -r sysm3=784
+Opening Display..
+cur_time = 154.882355
+Average time : m3=784,dsp=0 : 154.8852356
+sudo ./app -l 2 -r sysm3=788
+Opening Display..
+cur_time = 155.679688
+sudo ./app -l 2 -r sysm3=788
+Opening Display..
+cur_time = 155.601868
+sudo ./app -l 2 -r sysm3=788
+Opening Display..
+cur_time = 155.640839
+sudo ./app -l 2 -r sysm3=788
+Opening Display..
+cur_time = 155.678253
+sudo ./app -l 2 -r sysm3=788
+Opening Display..
+cur_time = 155.637482
+Average time : m3=788,dsp=0 : 155.647626
+sudo ./app -l 2 -r sysm3=792
+Opening Display..
+cur_time = 156.547638
+sudo ./app -l 2 -r sysm3=792
+Opening Display..
+cur_time = 156.397034
+sudo ./app -l 2 -r sysm3=792
+Opening Display..
+cur_time = 156.442596
+sudo ./app -l 2 -r sysm3=792
+Opening Display..
+cur_time = 156.381470
+sudo ./app -l 2 -r sysm3=792
+Opening Display..
+cur_time = 156.439911
+Average time : m3=792,dsp=0 : 156.4417298
+sudo ./app -l 2 -r sysm3=796
+Opening Display..
+cur_time = 157.294128
+sudo ./app -l 2 -r sysm3=796
+Opening Display..
+cur_time = 157.200195
+sudo ./app -l 2 -r sysm3=796
+Opening Display..
+cur_time = 157.307098
+sudo ./app -l 2 -r sysm3=796
+Opening Display..
+cur_time = 157.276306
+sudo ./app -l 2 -r sysm3=796
+Opening Display..
+cur_time = 157.262543
+Average time : m3=796,dsp=0 : 157.268054
+sudo ./app -l 2 -r sysm3=800
+Opening Display..
+cur_time = 157.958527
+sudo ./app -l 2 -r sysm3=800
+Opening Display..
+cur_time = 158.007660
+sudo ./app -l 2 -r sysm3=800
+Opening Display..
+cur_time = 158.035583
+sudo ./app -l 2 -r sysm3=800
+Opening Display..
+cur_time = 158.071045
+sudo ./app -l 2 -r sysm3=800
+Opening Display..
+cur_time = 157.977905
+Average time : m3=800,dsp=0 : 158.010144
+sudo ./app -l 2 -r sysm3=804
+Opening Display..
+cur_time = 158.970169
+sudo ./app -l 2 -r sysm3=804
+Opening Display..
+cur_time = 158.949829
+sudo ./app -l 2 -r sysm3=804
+Opening Display..
+cur_time = 158.795807
+sudo ./app -l 2 -r sysm3=804
+Opening Display..
+cur_time = 158.968018
+sudo ./app -l 2 -r sysm3=804
+Opening Display..
+cur_time = 158.824646
+Average time : m3=804,dsp=0 : 158.9016938
+sudo ./app -l 2 -r sysm3=808
+Opening Display..
+cur_time = 159.604538
+sudo ./app -l 2 -r sysm3=808
+Opening Display..
+cur_time = 159.626022
+sudo ./app -l 2 -r sysm3=808
+Opening Display..
+cur_time = 159.636322
+sudo ./app -l 2 -r sysm3=808
+Opening Display..
+cur_time = 159.741028
+sudo ./app -l 2 -r sysm3=808
+Opening Display..
+cur_time = 159.699463
+Average time : m3=808,dsp=0 : 159.6614746
+sudo ./app -l 2 -r sysm3=812
+Opening Display..
+cur_time = 160.546753
+sudo ./app -l 2 -r sysm3=812
+Opening Display..
+cur_time = 160.440308
+sudo ./app -l 2 -r sysm3=812
+Opening Display..
+cur_time = 160.592072
+sudo ./app -l 2 -r sysm3=812
+Opening Display..
+cur_time = 160.523346
+sudo ./app -l 2 -r sysm3=812
+Opening Display..
+cur_time = 160.517960
+Average time : m3=812,dsp=0 : 160.5240878
+sudo ./app -l 2 -r sysm3=816
+Opening Display..
+cur_time = 161.429718
+sudo ./app -l 2 -r sysm3=816
+Opening Display..
+cur_time = 161.419220
+sudo ./app -l 2 -r sysm3=816
+Opening Display..
+cur_time = 161.310852
+sudo ./app -l 2 -r sysm3=816
+Opening Display..
+cur_time = 161.366333
+sudo ./app -l 2 -r sysm3=816
+Opening Display..
+cur_time = 161.315582
+Average time : m3=816,dsp=0 : 161.368341
+sudo ./app -l 2 -r sysm3=820
+Opening Display..
+cur_time = 162.026001
+sudo ./app -l 2 -r sysm3=820
+Opening Display..
+cur_time = 162.051453
+sudo ./app -l 2 -r sysm3=820
+Opening Display..
+cur_time = 161.981689
+sudo ./app -l 2 -r sysm3=820
+Opening Display..
+cur_time = 161.996948
+sudo ./app -l 2 -r sysm3=820
+Opening Display..
+cur_time = 162.177353
+Average time : m3=820,dsp=0 : 162.0466888
+sudo ./app -l 2 -r sysm3=824
+Opening Display..
+cur_time = 162.842087
+sudo ./app -l 2 -r sysm3=824
+Opening Display..
+cur_time = 162.840515
+sudo ./app -l 2 -r sysm3=824
+Opening Display..
+cur_time = 162.815155
+sudo ./app -l 2 -r sysm3=824
+Opening Display..
+cur_time = 162.888000
+sudo ./app -l 2 -r sysm3=824
+Opening Display..
+cur_time = 162.875214
+Average time : m3=824,dsp=0 : 162.8521942
+sudo ./app -l 2 -r sysm3=828
+Opening Display..
+cur_time = 163.537567
+sudo ./app -l 2 -r sysm3=828
+Opening Display..
+cur_time = 163.501862
+sudo ./app -l 2 -r sysm3=828
+Opening Display..
+cur_time = 163.708771
+sudo ./app -l 2 -r sysm3=828
+Opening Display..
+cur_time = 163.373627
+sudo ./app -l 2 -r sysm3=828
+Opening Display..
+cur_time = 163.652130
+Average time : m3=828,dsp=0 : 163.5547914
+sudo ./app -l 2 -r sysm3=832
+Opening Display..
+cur_time = 164.318390
+sudo ./app -l 2 -r sysm3=832
+Opening Display..
+cur_time = 164.389526
+sudo ./app -l 2 -r sysm3=832
+Opening Display..
+cur_time = 164.380890
+sudo ./app -l 2 -r sysm3=832
+Opening Display..
+cur_time = 164.504486
+sudo ./app -l 2 -r sysm3=832
+Opening Display..
+cur_time = 164.443939
+Average time : m3=832,dsp=0 : 164.4074462
+sudo ./app -l 2 -r sysm3=836
+Opening Display..
+cur_time = 165.225189
+sudo ./app -l 2 -r sysm3=836
+Opening Display..
+cur_time = 165.185822
+sudo ./app -l 2 -r sysm3=836
+Opening Display..
+cur_time = 165.087036
+sudo ./app -l 2 -r sysm3=836
+Opening Display..
+cur_time = 165.192017
+sudo ./app -l 2 -r sysm3=836
+Opening Display..
+cur_time = 165.182343
+Average time : m3=836,dsp=0 : 165.1744814
+sudo ./app -l 2 -r sysm3=840
+Opening Display..
+cur_time = 165.861511
+sudo ./app -l 2 -r sysm3=840
+Opening Display..
+cur_time = 165.948471
+sudo ./app -l 2 -r sysm3=840
+Opening Display..
+cur_time = 165.881927
+sudo ./app -l 2 -r sysm3=840
+Opening Display..
+cur_time = 165.942078
+sudo ./app -l 2 -r sysm3=840
+Opening Display..
+cur_time = 165.852081
+Average time : m3=840,dsp=0 : 165.8972136
+sudo ./app -l 2 -r sysm3=844
+Opening Display..
+cur_time = 166.802063
+sudo ./app -l 2 -r sysm3=844
+Opening Display..
+cur_time = 166.730392
+sudo ./app -l 2 -r sysm3=844
+Opening Display..
+cur_time = 166.760254
+sudo ./app -l 2 -r sysm3=844
+Opening Display..
+cur_time = 166.753204
+sudo ./app -l 2 -r sysm3=844
+Opening Display..
+cur_time = 166.850739
+Average time : m3=844,dsp=0 : 166.7793304
+sudo ./app -l 2 -r sysm3=848
+Opening Display..
+cur_time = 167.519409
+sudo ./app -l 2 -r sysm3=848
+Opening Display..
+cur_time = 167.538681
+sudo ./app -l 2 -r sysm3=848
+Opening Display..
+cur_time = 167.482147
+sudo ./app -l 2 -r sysm3=848
+Opening Display..
+cur_time = 167.630493
+sudo ./app -l 2 -r sysm3=848
+Opening Display..
+cur_time = 167.451782
+Average time : m3=848,dsp=0 : 167.5245024
+sudo ./app -l 2 -r sysm3=852
+Opening Display..
+cur_time = 168.365570
+sudo ./app -l 2 -r sysm3=852
+Opening Display..
+cur_time = 168.314819
+sudo ./app -l 2 -r sysm3=852
+Opening Display..
+cur_time = 168.482178
+sudo ./app -l 2 -r sysm3=852
+Opening Display..
+cur_time = 168.263062
+sudo ./app -l 2 -r sysm3=852
+Opening Display..
+cur_time = 168.383728
+Average time : m3=852,dsp=0 : 168.3618714
+sudo ./app -l 2 -r sysm3=856
+Opening Display..
+cur_time = 169.067200
+sudo ./app -l 2 -r sysm3=856
+Opening Display..
+cur_time = 169.241730
+sudo ./app -l 2 -r sysm3=856
+Opening Display..
+cur_time = 169.149567
+sudo ./app -l 2 -r sysm3=856
+Opening Display..
+cur_time = 169.117859
+sudo ./app -l 2 -r sysm3=856
+Opening Display..
+cur_time = 169.236847
+Average time : m3=856,dsp=0 : 169.1626406
+sudo ./app -l 2 -r sysm3=860
+Opening Display..
+cur_time = 169.981476
+sudo ./app -l 2 -r sysm3=860
+Opening Display..
+cur_time = 169.865631
+sudo ./app -l 2 -r sysm3=860
+Opening Display..
+cur_time = 169.934448
+sudo ./app -l 2 -r sysm3=860
+Opening Display..
+cur_time = 169.942230
+sudo ./app -l 2 -r sysm3=860
+Opening Display..
+cur_time = 170.037842
+Average time : m3=860,dsp=0 : 169.9523254
+sudo ./app -l 2 -r sysm3=864
+Opening Display..
+cur_time = 170.778412
+sudo ./app -l 2 -r sysm3=864
+Opening Display..
+cur_time = 170.837189
+sudo ./app -l 2 -r sysm3=864
+Opening Display..
+cur_time = 170.744843
+sudo ./app -l 2 -r sysm3=864
+Opening Display..
+cur_time = 170.785095
+sudo ./app -l 2 -r sysm3=864
+Opening Display..
+cur_time = 170.698090
+Average time : m3=864,dsp=0 : 170.7687258
+sudo ./app -l 2 -r sysm3=868
+Opening Display..
+cur_time = 171.455048
+sudo ./app -l 2 -r sysm3=868
+Opening Display..
+cur_time = 171.457062
+sudo ./app -l 2 -r sysm3=868
+Opening Display..
+cur_time = 171.508743
+sudo ./app -l 2 -r sysm3=868
+Opening Display..
+cur_time = 171.512085
+sudo ./app -l 2 -r sysm3=868
+Opening Display..
+cur_time = 171.462051
+Average time : m3=868,dsp=0 : 171.4789978
+sudo ./app -l 2 -r sysm3=872
+Opening Display..
+cur_time = 172.338531
+sudo ./app -l 2 -r sysm3=872
+Opening Display..
+cur_time = 172.295868
+sudo ./app -l 2 -r sysm3=872
+Opening Display..
+cur_time = 172.383881
+sudo ./app -l 2 -r sysm3=872
+Opening Display..
+cur_time = 172.434906
+sudo ./app -l 2 -r sysm3=872
+Opening Display..
+cur_time = 172.263123
+Average time : m3=872,dsp=0 : 172.3432618
+sudo ./app -l 2 -r sysm3=876
+Opening Display..
+cur_time = 173.214325
+sudo ./app -l 2 -r sysm3=876
+Opening Display..
+cur_time = 173.179565
+sudo ./app -l 2 -r sysm3=876
+Opening Display..
+cur_time = 173.142029
+sudo ./app -l 2 -r sysm3=876
+Opening Display..
+cur_time = 173.216125
+sudo ./app -l 2 -r sysm3=876
+Opening Display..
+cur_time = 173.205597
+Average time : m3=876,dsp=0 : 173.1915282
+sudo ./app -l 2 -r sysm3=880
+Opening Display..
+cur_time = 174.103699
+sudo ./app -l 2 -r sysm3=880
+Opening Display..
+cur_time = 174.025696
+sudo ./app -l 2 -r sysm3=880
+Opening Display..
+cur_time = 174.023010
+sudo ./app -l 2 -r sysm3=880
+Opening Display..
+cur_time = 174.144043
+sudo ./app -l 2 -r sysm3=880
+Opening Display..
+cur_time = 174.069611
+Average time : m3=880,dsp=0 : 174.0732118
+sudo ./app -l 2 -r sysm3=884
+Opening Display..
+cur_time = 174.929367
+sudo ./app -l 2 -r sysm3=884
+Opening Display..
+cur_time = 174.821075
+sudo ./app -l 2 -r sysm3=884
+Opening Display..
+cur_time = 174.831940
+sudo ./app -l 2 -r sysm3=884
+Opening Display..
+cur_time = 174.877686
+sudo ./app -l 2 -r sysm3=884
+Opening Display..
+cur_time = 174.802307
+Average time : m3=884,dsp=0 : 174.852475
+sudo ./app -l 2 -r sysm3=888
+Opening Display..
+cur_time = 175.520203
+sudo ./app -l 2 -r sysm3=888
+Opening Display..
+cur_time = 175.622772
+sudo ./app -l 2 -r sysm3=888
+Opening Display..
+cur_time = 175.492706
+sudo ./app -l 2 -r sysm3=888
+Opening Display..
+cur_time = 175.655823
+sudo ./app -l 2 -r sysm3=888
+Opening Display..
+cur_time = 175.598419
+Average time : m3=888,dsp=0 : 175.5779846
+sudo ./app -l 2 -r sysm3=892
+Opening Display..
+cur_time = 176.367416
+sudo ./app -l 2 -r sysm3=892
+Opening Display..
+cur_time = 176.341721
+sudo ./app -l 2 -r sysm3=892
+Opening Display..
+cur_time = 176.390533
+sudo ./app -l 2 -r sysm3=892
+Opening Display..
+cur_time = 176.422607
+sudo ./app -l 2 -r sysm3=892
+Opening Display..
+cur_time = 176.377197
+Average time : m3=892,dsp=0 : 176.3798948
+sudo ./app -l 2 -r sysm3=896
+Opening Display..
+cur_time = 177.230927
+sudo ./app -l 2 -r sysm3=896
+Opening Display..
+cur_time = 177.173981
+sudo ./app -l 2 -r sysm3=896
+Opening Display..
+cur_time = 177.159515
+sudo ./app -l 2 -r sysm3=896
+Opening Display..
+cur_time = 177.023865
+sudo ./app -l 2 -r sysm3=896
+Opening Display..
+cur_time = 177.193817
+Average time : m3=896,dsp=0 : 177.156421
+sudo ./app -l 2 -r sysm3=900
+Opening Display..
+cur_time = 177.888702
+sudo ./app -l 2 -r sysm3=900
+Opening Display..
+cur_time = 177.896606
+sudo ./app -l 2 -r sysm3=900
+Opening Display..
+cur_time = 177.825378
+sudo ./app -l 2 -r sysm3=900
+Opening Display..
+cur_time = 177.881775
+sudo ./app -l 2 -r sysm3=900
+Opening Display..
+cur_time = 177.940704
+Average time : m3=900,dsp=0 : 177.886633
+sudo ./app -l 2 -r sysm3=904
+Opening Display..
+cur_time = 178.721344
+sudo ./app -l 2 -r sysm3=904
+Opening Display..
+cur_time = 178.716400
+sudo ./app -l 2 -r sysm3=904
+Opening Display..
+cur_time = 178.636353
+sudo ./app -l 2 -r sysm3=904
+Opening Display..
+cur_time = 178.687958
+sudo ./app -l 2 -r sysm3=904
+Opening Display..
+cur_time = 178.618591
+Average time : m3=904,dsp=0 : 178.6761292
+sudo ./app -l 2 -r sysm3=908
+Opening Display..
+cur_time = 179.421692
+sudo ./app -l 2 -r sysm3=908
+Opening Display..
+cur_time = 179.369843
+sudo ./app -l 2 -r sysm3=908
+Opening Display..
+cur_time = 179.368286
+sudo ./app -l 2 -r sysm3=908
+Opening Display..
+cur_time = 179.384583
+sudo ./app -l 2 -r sysm3=908
+Opening Display..
+cur_time = 179.470825
+Average time : m3=908,dsp=0 : 179.4030458
+sudo ./app -l 2 -r sysm3=912
+Opening Display..
+cur_time = 180.195862
+sudo ./app -l 2 -r sysm3=912
+Opening Display..
+cur_time = 180.138916
+sudo ./app -l 2 -r sysm3=912
+Opening Display..
+cur_time = 180.158447
+sudo ./app -l 2 -r sysm3=912
+Opening Display..
+cur_time = 180.171143
+sudo ./app -l 2 -r sysm3=912
+Opening Display..
+cur_time = 180.184692
+Average time : m3=912,dsp=0 : 180.169812
+sudo ./app -l 2 -r sysm3=916
+Opening Display..
+cur_time = 180.901276
+sudo ./app -l 2 -r sysm3=916
+Opening Display..
+cur_time = 180.969147
+sudo ./app -l 2 -r sysm3=916
+Opening Display..
+cur_time = 180.995117
+sudo ./app -l 2 -r sysm3=916
+Opening Display..
+cur_time = 180.978271
+sudo ./app -l 2 -r sysm3=916
+Opening Display..
+cur_time = 180.914795
+Average time : m3=916,dsp=0 : 180.9517212
+sudo ./app -l 2 -r sysm3=920
+Opening Display..
+cur_time = 181.606689
+sudo ./app -l 2 -r sysm3=920
+Opening Display..
+cur_time = 181.804871
+sudo ./app -l 2 -r sysm3=920
+Opening Display..
+cur_time = 181.830627
+sudo ./app -l 2 -r sysm3=920
+Opening Display..
+cur_time = 181.734619
+sudo ./app -l 2 -r sysm3=920
+Opening Display..
+cur_time = 181.635559
+Average time : m3=920,dsp=0 : 181.722473
+sudo ./app -l 2 -r sysm3=924
+Opening Display..
+cur_time = 182.635529
+sudo ./app -l 2 -r sysm3=924
+Opening Display..
+cur_time = 182.414093
+sudo ./app -l 2 -r sysm3=924
+Opening Display..
+cur_time = 182.574585
+sudo ./app -l 2 -r sysm3=924
+Opening Display..
+cur_time = 182.479553
+sudo ./app -l 2 -r sysm3=924
+Opening Display..
+cur_time = 182.538818
+Average time : m3=924,dsp=0 : 182.5285156
+sudo ./app -l 2 -r sysm3=928
+Opening Display..
+cur_time = 183.222443
+sudo ./app -l 2 -r sysm3=928
+Opening Display..
+cur_time = 183.291077
+sudo ./app -l 2 -r sysm3=928
+Opening Display..
+cur_time = 183.285126
+sudo ./app -l 2 -r sysm3=928
+Opening Display..
+cur_time = 183.398865
+sudo ./app -l 2 -r sysm3=928
+Opening Display..
+cur_time = 183.260345
+Average time : m3=928,dsp=0 : 183.2915712
+sudo ./app -l 2 -r sysm3=932
+Opening Display..
+cur_time = 184.084793
+sudo ./app -l 2 -r sysm3=932
+Opening Display..
+cur_time = 184.015686
+sudo ./app -l 2 -r sysm3=932
+Opening Display..
+cur_time = 184.059296
+sudo ./app -l 2 -r sysm3=932
+Opening Display..
+cur_time = 184.045197
+sudo ./app -l 2 -r sysm3=932
+Opening Display..
+cur_time = 184.002869
+Average time : m3=932,dsp=0 : 184.0415682
+sudo ./app -l 2 -r sysm3=936
+Opening Display..
+cur_time = 184.720764
+sudo ./app -l 2 -r sysm3=936
+Opening Display..
+cur_time = 185.059769
+sudo ./app -l 2 -r sysm3=936
+Opening Display..
+cur_time = 184.814514
+sudo ./app -l 2 -r sysm3=936
+Opening Display..
+cur_time = 184.713379
+sudo ./app -l 2 -r sysm3=936
+Opening Display..
+cur_time = 184.908585
+Average time : m3=936,dsp=0 : 184.8434022
+sudo ./app -l 2 -r sysm3=940
+Opening Display..
+cur_time = 185.720978
+sudo ./app -l 2 -r sysm3=940
+Opening Display..
+cur_time = 185.666412
+sudo ./app -l 2 -r sysm3=940
+Opening Display..
+cur_time = 185.663666
+sudo ./app -l 2 -r sysm3=940
+Opening Display..
+cur_time = 185.617554
+sudo ./app -l 2 -r sysm3=940
+Opening Display..
+cur_time = 185.888672
+Average time : m3=940,dsp=0 : 185.7114564
+sudo ./app -l 2 -r sysm3=944
+Opening Display..
+cur_time = 186.424896
+sudo ./app -l 2 -r sysm3=944
+Opening Display..
+cur_time = 186.585266
+sudo ./app -l 2 -r sysm3=944
+Opening Display..
+cur_time = 186.443634
+sudo ./app -l 2 -r sysm3=944
+Opening Display..
+cur_time = 186.547638
+sudo ./app -l 2 -r sysm3=944
+Opening Display..
+cur_time = 186.441895
+Average time : m3=944,dsp=0 : 186.4886658
+sudo ./app -l 2 -r sysm3=948
+Opening Display..
+cur_time = 187.291229
+sudo ./app -l 2 -r sysm3=948
+Opening Display..
+cur_time = 187.184845
+sudo ./app -l 2 -r sysm3=948
+Opening Display..
+cur_time = 187.201172
+sudo ./app -l 2 -r sysm3=948
+Opening Display..
+cur_time = 187.259277
+sudo ./app -l 2 -r sysm3=948
+Opening Display..
+cur_time = 187.223022
+Average time : m3=948,dsp=0 : 187.231909
+sudo ./app -l 2 -r sysm3=952
+Opening Display..
+cur_time = 187.973877
+sudo ./app -l 2 -r sysm3=952
+Opening Display..
+cur_time = 187.994385
+sudo ./app -l 2 -r sysm3=952
+Opening Display..
+cur_time = 188.015228
+sudo ./app -l 2 -r sysm3=952
+Opening Display..
+cur_time = 188.124207
+sudo ./app -l 2 -r sysm3=952
+Opening Display..
+cur_time = 187.955078
+Average time : m3=952,dsp=0 : 188.012555
+sudo ./app -l 2 -r sysm3=956
+Opening Display..
+cur_time = 188.738129
+sudo ./app -l 2 -r sysm3=956
+Opening Display..
+cur_time = 188.806580
+sudo ./app -l 2 -r sysm3=956
+Opening Display..
+cur_time = 188.839844
+sudo ./app -l 2 -r sysm3=956
+Opening Display..
+cur_time = 188.768341
+sudo ./app -l 2 -r sysm3=956
+Opening Display..
+cur_time = 188.783783
+Average time : m3=956,dsp=0 : 188.7873354
+sudo ./app -l 2 -r sysm3=960
+Opening Display..
+cur_time = 189.509308
+sudo ./app -l 2 -r sysm3=960
+Opening Display..
+cur_time = 189.662109
+sudo ./app -l 2 -r sysm3=960
+Opening Display..
+cur_time = 189.461578
+sudo ./app -l 2 -r sysm3=960
+Opening Display..
+cur_time = 189.553284
+sudo ./app -l 2 -r sysm3=960
+Opening Display..
+cur_time = 189.607635
+Average time : m3=960,dsp=0 : 189.5587828
+sudo ./app -l 2 -r sysm3=964
+Opening Display..
+cur_time = 190.401733
+sudo ./app -l 2 -r sysm3=964
+Opening Display..
+cur_time = 190.257690
+sudo ./app -l 2 -r sysm3=964
+Opening Display..

@@ -1,0 +1,21 @@
+kiran@pandaboard:~/phd_project_histo$ sudo ./app -l 2 ; sudo ./app -r sysm3=4096 ; sudo ./app -r dsp=4096
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.608002,12.470429,12.470337,0.000000,0.000000,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <70.816132,69.594482,0.000000,0.000000,69.593903,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <73.136078,71.842102,0.000000,0.000000,0.000000,71.841492>
+
+kiran@pandaboard:~/phd_project_histo$ ./avg_runtime.pl 
+sudo ./app -l 2 -r sysm3=384,dsp=384	cur_time = 10.948028
+sudo ./app -l 2 -r sysm3=384,dsp=416	cur_time = 10.864898
+sudo ./app -l 2 -r sysm3=384,dsp=448	cur_time = 10.821655
+sudo ./app -l 2 -r sysm3=384,dsp=480	cur_time = 11.285431
+sudo ./app -l 2 -r sysm3=384,dsp=512	cur_time = 11.295471
+sudo ./app -l 2 -r sysm3=416,dsp=384	cur_time = 10.905915
+sudo ./app -l 2 -r sysm3=416,dsp=416	cur_time = 11.162323
+sudo ./app -l 2 -r sysm3=416,dsp=448	cur_time = 10.705505
+sudo ./app -l 2 -r sysm3=416,dsp=480	cur_time = 11.079254
+sudo ./app -l 2 -r sysm3=416,dsp=512	cur_time = 11.353272
+sudo ./app -l 2 -r sysm3=448,dsp=384	cur_time = 10.810394
+sudo ./app -l 2 -r sysm3=448,dsp=416	cur_time = 11.063263
+sudo ./app -l 2 -r sysm3=448,dsp=448	cur_time = 10.677673
+sudo ./app -l 2 -r sysm3=448,dsp=480	cur_time = 11.045716
+sudo ./app -l 2 -r sysm3=448,dsp=512	cur_time = 11.167328

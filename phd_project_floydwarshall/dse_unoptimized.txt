@@ -1,0 +1,9 @@
+kiran@pandaboard:~/phd_project_floydwarshall$ sudo ./app -l 2 ; sudo ./app -r sysm3=512 ; sudo ./app -r dsp=512
+Time<total,runtime, a9-sync,a9,m3,dsp> = <10.590850,8.849640,8.849548,0.000000,0.000000,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <71.648041,69.585785,0.000000,0.000000,69.584892,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <92.819305,90.839539,0.000000,0.000000,0.000000,90.838593>
+kiran@pandaboard:~/phd_project_floydwarshall$ ./avg_runtime.pl 
+Average time : m3=32,dsp=32 : 7.97992
+Average time : m3=32,dsp=48 : 7.60083
+Average time : m3=48,dsp=32 : 8.449158
+Average time : m3=48,dsp=48 : 8.38913

@@ -1,0 +1,16 @@
+kiran@pandaboard:~/phd_project_doitgen$ sudo ./app -l 2 ; sudo ./app -r sysm3=64 ; sudo ./app -r dsp=64
+Time<total,runtime, a9-sync,a9,m3,dsp> = <6.338531,6.077668,6.077576,0.000000,0.000000,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <53.444088,52.783752,0.000000,0.000000,52.782837,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <10.011777,9.488586,0.000000,0.000000,0.000000,9.487762>
+
+Average time : m3=6,dsp=24 : 5.226502
+Average time : m3=2,dsp=20 : 4.032868
+Average time : m3=2,dsp=22 : 3.775055
+Average time : m3=2,dsp=24 : 3.924316
+Average time : m3=4,dsp=20 : 3.907989
+Average time : m3=4,dsp=22 : 3.562134
+Average time : m3=4,dsp=24 : 3.760346
+Average time : m3=6,dsp=20 : 5.166046
+Average time : m3=6,dsp=22 : 5.111054
+Average time : m3=6,dsp=24 : 5.226502
+

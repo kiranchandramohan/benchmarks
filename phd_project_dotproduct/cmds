@@ -1,0 +1,1118 @@
+A9=32, M3=0, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2
+A9=31, M3=0, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=131072
+A9=30, M3=0, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=262144
+A9=29, M3=0, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=393216
+A9=28, M3=0, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=524288
+A9=27, M3=0, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=655360
+A9=26, M3=0, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=786432
+A9=25, M3=0, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=917504
+A9=24, M3=0, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1048576
+A9=23, M3=0, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1179648
+A9=22, M3=0, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1310720
+A9=21, M3=0, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1441792
+A9=20, M3=0, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1572864
+A9=19, M3=0, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1703936
+A9=18, M3=0, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1835008
+A9=17, M3=0, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=1966080
+A9=16, M3=0, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2097152
+A9=15, M3=0, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2228224
+A9=14, M3=0, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2359296
+A9=13, M3=0, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2490368
+A9=12, M3=0, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2621440
+A9=11, M3=0, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2752512
+A9=10, M3=0, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=2883584
+A9=9, M3=0, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3014656
+A9=8, M3=0, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3145728
+A9=7, M3=0, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3276800
+A9=6, M3=0, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3407872
+A9=5, M3=0, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3538944
+A9=4, M3=0, DSP=28
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3670016
+A9=3, M3=0, DSP=29
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3801088
+A9=2, M3=0, DSP=30
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=3932160
+A9=1, M3=0, DSP=31
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r dsp=4063232
+A9=31, M3=1, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072
+A9=30, M3=1, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=131072
+A9=29, M3=1, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=262144
+A9=28, M3=1, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=393216
+A9=27, M3=1, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=524288
+A9=26, M3=1, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=655360
+A9=25, M3=1, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=786432
+A9=24, M3=1, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=917504
+A9=23, M3=1, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1048576
+A9=22, M3=1, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1179648
+A9=21, M3=1, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1310720
+A9=20, M3=1, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1441792
+A9=19, M3=1, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1572864
+A9=18, M3=1, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1703936
+A9=17, M3=1, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1835008
+A9=16, M3=1, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=1966080
+A9=15, M3=1, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2097152
+A9=14, M3=1, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2228224
+A9=13, M3=1, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2359296
+A9=12, M3=1, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2490368
+A9=11, M3=1, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2621440
+A9=10, M3=1, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2752512
+A9=9, M3=1, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=2883584
+A9=8, M3=1, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3014656
+A9=7, M3=1, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3145728
+A9=6, M3=1, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3276800
+A9=5, M3=1, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3407872
+A9=4, M3=1, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3538944
+A9=3, M3=1, DSP=28
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3670016
+A9=2, M3=1, DSP=29
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3801088
+A9=1, M3=1, DSP=30
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=131072,dsp=3932160
+A9=0, M3=1, DSP=31
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=131072,dsp=4063232
+A9=30, M3=2, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144
+A9=29, M3=2, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=131072
+A9=28, M3=2, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=262144
+A9=27, M3=2, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=393216
+A9=26, M3=2, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=524288
+A9=25, M3=2, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=655360
+A9=24, M3=2, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=786432
+A9=23, M3=2, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=917504
+A9=22, M3=2, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1048576
+A9=21, M3=2, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1179648
+A9=20, M3=2, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1310720
+A9=19, M3=2, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1441792
+A9=18, M3=2, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1572864
+A9=17, M3=2, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1703936
+A9=16, M3=2, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1835008
+A9=15, M3=2, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=1966080
+A9=14, M3=2, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2097152
+A9=13, M3=2, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2228224
+A9=12, M3=2, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2359296
+A9=11, M3=2, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2490368
+A9=10, M3=2, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2621440
+A9=9, M3=2, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2752512
+A9=8, M3=2, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=2883584
+A9=7, M3=2, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3014656
+A9=6, M3=2, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3145728
+A9=5, M3=2, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3276800
+A9=4, M3=2, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3407872
+A9=3, M3=2, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3538944
+A9=2, M3=2, DSP=28
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3670016
+A9=1, M3=2, DSP=29
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=262144,dsp=3801088
+A9=0, M3=2, DSP=30
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=262144,dsp=3932160
+A9=29, M3=3, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216
+A9=28, M3=3, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=131072
+A9=27, M3=3, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=262144
+A9=26, M3=3, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=393216
+A9=25, M3=3, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=524288
+A9=24, M3=3, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=655360
+A9=23, M3=3, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=786432
+A9=22, M3=3, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=917504
+A9=21, M3=3, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1048576
+A9=20, M3=3, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1179648
+A9=19, M3=3, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1310720
+A9=18, M3=3, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1441792
+A9=17, M3=3, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1572864
+A9=16, M3=3, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1703936
+A9=15, M3=3, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1835008
+A9=14, M3=3, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=1966080
+A9=13, M3=3, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2097152
+A9=12, M3=3, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2228224
+A9=11, M3=3, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2359296
+A9=10, M3=3, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2490368
+A9=9, M3=3, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2621440
+A9=8, M3=3, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2752512
+A9=7, M3=3, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=2883584
+A9=6, M3=3, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3014656
+A9=5, M3=3, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3145728
+A9=4, M3=3, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3276800
+A9=3, M3=3, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3407872
+A9=2, M3=3, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3538944
+A9=1, M3=3, DSP=28
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=393216,dsp=3670016
+A9=0, M3=3, DSP=29
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=393216,dsp=3801088
+A9=28, M3=4, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288
+A9=27, M3=4, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=131072
+A9=26, M3=4, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=262144
+A9=25, M3=4, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=393216
+A9=24, M3=4, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=524288
+A9=23, M3=4, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=655360
+A9=22, M3=4, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=786432
+A9=21, M3=4, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=917504
+A9=20, M3=4, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1048576
+A9=19, M3=4, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1179648
+A9=18, M3=4, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1310720
+A9=17, M3=4, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1441792
+A9=16, M3=4, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1572864
+A9=15, M3=4, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1703936
+A9=14, M3=4, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1835008
+A9=13, M3=4, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=1966080
+A9=12, M3=4, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2097152
+A9=11, M3=4, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2228224
+A9=10, M3=4, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2359296
+A9=9, M3=4, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2490368
+A9=8, M3=4, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2621440
+A9=7, M3=4, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2752512
+A9=6, M3=4, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=2883584
+A9=5, M3=4, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=3014656
+A9=4, M3=4, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=3145728
+A9=3, M3=4, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=3276800
+A9=2, M3=4, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=3407872
+A9=1, M3=4, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=3538944
+A9=0, M3=4, DSP=28
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=524288,dsp=3670016
+A9=27, M3=5, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360
+A9=26, M3=5, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=131072
+A9=25, M3=5, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=262144
+A9=24, M3=5, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=393216
+A9=23, M3=5, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=524288
+A9=22, M3=5, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=655360
+A9=21, M3=5, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=786432
+A9=20, M3=5, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=917504
+A9=19, M3=5, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1048576
+A9=18, M3=5, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1179648
+A9=17, M3=5, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1310720
+A9=16, M3=5, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1441792
+A9=15, M3=5, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1572864
+A9=14, M3=5, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1703936
+A9=13, M3=5, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1835008
+A9=12, M3=5, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=1966080
+A9=11, M3=5, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2097152
+A9=10, M3=5, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2228224
+A9=9, M3=5, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2359296
+A9=8, M3=5, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2490368
+A9=7, M3=5, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2621440
+A9=6, M3=5, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2752512
+A9=5, M3=5, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=2883584
+A9=4, M3=5, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=3014656
+A9=3, M3=5, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=3145728
+A9=2, M3=5, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=3276800
+A9=1, M3=5, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=3407872
+A9=0, M3=5, DSP=27
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=655360,dsp=3538944
+A9=26, M3=6, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432
+A9=25, M3=6, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=131072
+A9=24, M3=6, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=262144
+A9=23, M3=6, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=393216
+A9=22, M3=6, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=524288
+A9=21, M3=6, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=655360
+A9=20, M3=6, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=786432
+A9=19, M3=6, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=917504
+A9=18, M3=6, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1048576
+A9=17, M3=6, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1179648
+A9=16, M3=6, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1310720
+A9=15, M3=6, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1441792
+A9=14, M3=6, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1572864
+A9=13, M3=6, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1703936
+A9=12, M3=6, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1835008
+A9=11, M3=6, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=1966080
+A9=10, M3=6, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2097152
+A9=9, M3=6, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2228224
+A9=8, M3=6, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2359296
+A9=7, M3=6, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2490368
+A9=6, M3=6, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2621440
+A9=5, M3=6, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2752512
+A9=4, M3=6, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=2883584
+A9=3, M3=6, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=3014656
+A9=2, M3=6, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=3145728
+A9=1, M3=6, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=3276800
+A9=0, M3=6, DSP=26
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=786432,dsp=3407872
+A9=25, M3=7, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504
+A9=24, M3=7, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=131072
+A9=23, M3=7, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=262144
+A9=22, M3=7, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=393216
+A9=21, M3=7, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=524288
+A9=20, M3=7, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=655360
+A9=19, M3=7, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=786432
+A9=18, M3=7, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=917504
+A9=17, M3=7, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1048576
+A9=16, M3=7, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1179648
+A9=15, M3=7, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1310720
+A9=14, M3=7, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1441792
+A9=13, M3=7, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1572864
+A9=12, M3=7, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1703936
+A9=11, M3=7, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1835008
+A9=10, M3=7, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=1966080
+A9=9, M3=7, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2097152
+A9=8, M3=7, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2228224
+A9=7, M3=7, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2359296
+A9=6, M3=7, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2490368
+A9=5, M3=7, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2621440
+A9=4, M3=7, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2752512
+A9=3, M3=7, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=2883584
+A9=2, M3=7, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=3014656
+A9=1, M3=7, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=3145728
+A9=0, M3=7, DSP=25
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=917504,dsp=3276800
+A9=24, M3=8, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576
+A9=23, M3=8, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=131072
+A9=22, M3=8, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=262144
+A9=21, M3=8, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=393216
+A9=20, M3=8, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=524288
+A9=19, M3=8, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=655360
+A9=18, M3=8, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=786432
+A9=17, M3=8, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=917504
+A9=16, M3=8, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1048576
+A9=15, M3=8, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1179648
+A9=14, M3=8, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1310720
+A9=13, M3=8, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1441792
+A9=12, M3=8, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1572864
+A9=11, M3=8, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1703936
+A9=10, M3=8, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1835008
+A9=9, M3=8, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=1966080
+A9=8, M3=8, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2097152
+A9=7, M3=8, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2228224
+A9=6, M3=8, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2359296
+A9=5, M3=8, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2490368
+A9=4, M3=8, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2621440
+A9=3, M3=8, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2752512
+A9=2, M3=8, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=2883584
+A9=1, M3=8, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1048576,dsp=3014656
+A9=0, M3=8, DSP=24
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1048576,dsp=3145728
+A9=23, M3=9, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648
+A9=22, M3=9, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=131072
+A9=21, M3=9, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=262144
+A9=20, M3=9, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=393216
+A9=19, M3=9, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=524288
+A9=18, M3=9, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=655360
+A9=17, M3=9, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=786432
+A9=16, M3=9, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=917504
+A9=15, M3=9, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1048576
+A9=14, M3=9, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1179648
+A9=13, M3=9, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1310720
+A9=12, M3=9, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1441792
+A9=11, M3=9, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1572864
+A9=10, M3=9, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1703936
+A9=9, M3=9, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1835008
+A9=8, M3=9, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=1966080
+A9=7, M3=9, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2097152
+A9=6, M3=9, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2228224
+A9=5, M3=9, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2359296
+A9=4, M3=9, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2490368
+A9=3, M3=9, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2621440
+A9=2, M3=9, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2752512
+A9=1, M3=9, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1179648,dsp=2883584
+A9=0, M3=9, DSP=23
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1179648,dsp=3014656
+A9=22, M3=10, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720
+A9=21, M3=10, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=131072
+A9=20, M3=10, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=262144
+A9=19, M3=10, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=393216
+A9=18, M3=10, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=524288
+A9=17, M3=10, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=655360
+A9=16, M3=10, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=786432
+A9=15, M3=10, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=917504
+A9=14, M3=10, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1048576
+A9=13, M3=10, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1179648
+A9=12, M3=10, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1310720
+A9=11, M3=10, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1441792
+A9=10, M3=10, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1572864
+A9=9, M3=10, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1703936
+A9=8, M3=10, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1835008
+A9=7, M3=10, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=1966080
+A9=6, M3=10, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2097152
+A9=5, M3=10, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2228224
+A9=4, M3=10, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2359296
+A9=3, M3=10, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2490368
+A9=2, M3=10, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2621440
+A9=1, M3=10, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1310720,dsp=2752512
+A9=0, M3=10, DSP=22
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1310720,dsp=2883584
+A9=21, M3=11, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792
+A9=20, M3=11, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=131072
+A9=19, M3=11, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=262144
+A9=18, M3=11, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=393216
+A9=17, M3=11, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=524288
+A9=16, M3=11, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=655360
+A9=15, M3=11, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=786432
+A9=14, M3=11, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=917504
+A9=13, M3=11, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1048576
+A9=12, M3=11, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1179648
+A9=11, M3=11, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1310720
+A9=10, M3=11, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1441792
+A9=9, M3=11, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1572864
+A9=8, M3=11, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1703936
+A9=7, M3=11, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1835008
+A9=6, M3=11, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=1966080
+A9=5, M3=11, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=2097152
+A9=4, M3=11, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=2228224
+A9=3, M3=11, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=2359296
+A9=2, M3=11, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=2490368
+A9=1, M3=11, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1441792,dsp=2621440
+A9=0, M3=11, DSP=21
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1441792,dsp=2752512
+A9=20, M3=12, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864
+A9=19, M3=12, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=131072
+A9=18, M3=12, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=262144
+A9=17, M3=12, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=393216
+A9=16, M3=12, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=524288
+A9=15, M3=12, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=655360
+A9=14, M3=12, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=786432
+A9=13, M3=12, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=917504
+A9=12, M3=12, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1048576
+A9=11, M3=12, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1179648
+A9=10, M3=12, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1310720
+A9=9, M3=12, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1441792
+A9=8, M3=12, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1572864
+A9=7, M3=12, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1703936
+A9=6, M3=12, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1835008
+A9=5, M3=12, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=1966080
+A9=4, M3=12, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=2097152
+A9=3, M3=12, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=2228224
+A9=2, M3=12, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=2359296
+A9=1, M3=12, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1572864,dsp=2490368
+A9=0, M3=12, DSP=20
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1572864,dsp=2621440
+A9=19, M3=13, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936
+A9=18, M3=13, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=131072
+A9=17, M3=13, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=262144
+A9=16, M3=13, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=393216
+A9=15, M3=13, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=524288
+A9=14, M3=13, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=655360
+A9=13, M3=13, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=786432
+A9=12, M3=13, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=917504
+A9=11, M3=13, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1048576
+A9=10, M3=13, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1179648
+A9=9, M3=13, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1310720
+A9=8, M3=13, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1441792
+A9=7, M3=13, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1572864
+A9=6, M3=13, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1703936
+A9=5, M3=13, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1835008
+A9=4, M3=13, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=1966080
+A9=3, M3=13, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=2097152
+A9=2, M3=13, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=2228224
+A9=1, M3=13, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1703936,dsp=2359296
+A9=0, M3=13, DSP=19
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1703936,dsp=2490368
+A9=18, M3=14, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008
+A9=17, M3=14, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=131072
+A9=16, M3=14, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=262144
+A9=15, M3=14, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=393216
+A9=14, M3=14, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=524288
+A9=13, M3=14, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=655360
+A9=12, M3=14, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=786432
+A9=11, M3=14, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=917504
+A9=10, M3=14, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1048576
+A9=9, M3=14, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1179648
+A9=8, M3=14, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1310720
+A9=7, M3=14, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1441792
+A9=6, M3=14, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1572864
+A9=5, M3=14, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1703936
+A9=4, M3=14, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1835008
+A9=3, M3=14, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=1966080
+A9=2, M3=14, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=2097152
+A9=1, M3=14, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1835008,dsp=2228224
+A9=0, M3=14, DSP=18
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1835008,dsp=2359296
+A9=17, M3=15, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080
+A9=16, M3=15, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=131072
+A9=15, M3=15, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=262144
+A9=14, M3=15, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=393216
+A9=13, M3=15, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=524288
+A9=12, M3=15, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=655360
+A9=11, M3=15, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=786432
+A9=10, M3=15, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=917504
+A9=9, M3=15, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1048576
+A9=8, M3=15, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1179648
+A9=7, M3=15, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1310720
+A9=6, M3=15, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1441792
+A9=5, M3=15, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1572864
+A9=4, M3=15, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1703936
+A9=3, M3=15, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1835008
+A9=2, M3=15, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=1966080
+A9=1, M3=15, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=1966080,dsp=2097152
+A9=0, M3=15, DSP=17
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=1966080,dsp=2228224
+A9=16, M3=16, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152
+A9=15, M3=16, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=131072
+A9=14, M3=16, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=262144
+A9=13, M3=16, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=393216
+A9=12, M3=16, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=524288
+A9=11, M3=16, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=655360
+A9=10, M3=16, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=786432
+A9=9, M3=16, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=917504
+A9=8, M3=16, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1048576
+A9=7, M3=16, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1179648
+A9=6, M3=16, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1310720
+A9=5, M3=16, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1441792
+A9=4, M3=16, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1572864
+A9=3, M3=16, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1703936
+A9=2, M3=16, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1835008
+A9=1, M3=16, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2097152,dsp=1966080
+A9=0, M3=16, DSP=16
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2097152,dsp=2097152
+A9=15, M3=17, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224
+A9=14, M3=17, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=131072
+A9=13, M3=17, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=262144
+A9=12, M3=17, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=393216
+A9=11, M3=17, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=524288
+A9=10, M3=17, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=655360
+A9=9, M3=17, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=786432
+A9=8, M3=17, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=917504
+A9=7, M3=17, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1048576
+A9=6, M3=17, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1179648
+A9=5, M3=17, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1310720
+A9=4, M3=17, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1441792
+A9=3, M3=17, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1572864
+A9=2, M3=17, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1703936
+A9=1, M3=17, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2228224,dsp=1835008
+A9=0, M3=17, DSP=15
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2228224,dsp=1966080
+A9=14, M3=18, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296
+A9=13, M3=18, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=131072
+A9=12, M3=18, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=262144
+A9=11, M3=18, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=393216
+A9=10, M3=18, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=524288
+A9=9, M3=18, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=655360
+A9=8, M3=18, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=786432
+A9=7, M3=18, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=917504
+A9=6, M3=18, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1048576
+A9=5, M3=18, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1179648
+A9=4, M3=18, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1310720
+A9=3, M3=18, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1441792
+A9=2, M3=18, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1572864
+A9=1, M3=18, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2359296,dsp=1703936
+A9=0, M3=18, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2359296,dsp=1835008
+A9=13, M3=19, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368
+A9=12, M3=19, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=131072
+A9=11, M3=19, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=262144
+A9=10, M3=19, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=393216
+A9=9, M3=19, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=524288
+A9=8, M3=19, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=655360
+A9=7, M3=19, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=786432
+A9=6, M3=19, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=917504
+A9=5, M3=19, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=1048576
+A9=4, M3=19, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=1179648
+A9=3, M3=19, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=1310720
+A9=2, M3=19, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=1441792
+A9=1, M3=19, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2490368,dsp=1572864
+A9=0, M3=19, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2490368,dsp=1703936
+A9=12, M3=20, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440
+A9=11, M3=20, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=131072
+A9=10, M3=20, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=262144
+A9=9, M3=20, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=393216
+A9=8, M3=20, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=524288
+A9=7, M3=20, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=655360
+A9=6, M3=20, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=786432
+A9=5, M3=20, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=917504
+A9=4, M3=20, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=1048576
+A9=3, M3=20, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=1179648
+A9=2, M3=20, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=1310720
+A9=1, M3=20, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2621440,dsp=1441792
+A9=0, M3=20, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2621440,dsp=1572864
+A9=11, M3=21, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512
+A9=10, M3=21, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=131072
+A9=9, M3=21, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=262144
+A9=8, M3=21, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=393216
+A9=7, M3=21, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=524288
+A9=6, M3=21, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=655360
+A9=5, M3=21, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=786432
+A9=4, M3=21, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=917504
+A9=3, M3=21, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=1048576
+A9=2, M3=21, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=1179648
+A9=1, M3=21, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2752512,dsp=1310720
+A9=0, M3=21, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2752512,dsp=1441792
+A9=10, M3=22, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584
+A9=9, M3=22, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=131072
+A9=8, M3=22, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=262144
+A9=7, M3=22, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=393216
+A9=6, M3=22, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=524288
+A9=5, M3=22, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=655360
+A9=4, M3=22, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=786432
+A9=3, M3=22, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=917504
+A9=2, M3=22, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=1048576
+A9=1, M3=22, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=2883584,dsp=1179648
+A9=0, M3=22, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=2883584,dsp=1310720
+A9=9, M3=23, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656
+A9=8, M3=23, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=131072
+A9=7, M3=23, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=262144
+A9=6, M3=23, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=393216
+A9=5, M3=23, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=524288
+A9=4, M3=23, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=655360
+A9=3, M3=23, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=786432
+A9=2, M3=23, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=917504
+A9=1, M3=23, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3014656,dsp=1048576
+A9=0, M3=23, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3014656,dsp=1179648
+A9=8, M3=24, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728
+A9=7, M3=24, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=131072
+A9=6, M3=24, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=262144
+A9=5, M3=24, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=393216
+A9=4, M3=24, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=524288
+A9=3, M3=24, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=655360
+A9=2, M3=24, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=786432
+A9=1, M3=24, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3145728,dsp=917504
+A9=0, M3=24, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3145728,dsp=1048576
+A9=7, M3=25, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800
+A9=6, M3=25, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=131072
+A9=5, M3=25, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=262144
+A9=4, M3=25, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=393216
+A9=3, M3=25, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=524288
+A9=2, M3=25, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=655360
+A9=1, M3=25, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3276800,dsp=786432
+A9=0, M3=25, DSP=7
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3276800,dsp=917504
+A9=6, M3=26, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872
+A9=5, M3=26, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872,dsp=131072
+A9=4, M3=26, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872,dsp=262144
+A9=3, M3=26, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872,dsp=393216
+A9=2, M3=26, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872,dsp=524288
+A9=1, M3=26, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3407872,dsp=655360
+A9=0, M3=26, DSP=6
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3407872,dsp=786432
+A9=5, M3=27, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3538944
+A9=4, M3=27, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3538944,dsp=131072
+A9=3, M3=27, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3538944,dsp=262144
+A9=2, M3=27, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3538944,dsp=393216
+A9=1, M3=27, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3538944,dsp=524288
+A9=0, M3=27, DSP=5
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3538944,dsp=655360
+A9=4, M3=28, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3670016
+A9=3, M3=28, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3670016,dsp=131072
+A9=2, M3=28, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3670016,dsp=262144
+A9=1, M3=28, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3670016,dsp=393216
+A9=0, M3=28, DSP=4
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3670016,dsp=524288
+A9=3, M3=29, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3801088
+A9=2, M3=29, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3801088,dsp=131072
+A9=1, M3=29, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3801088,dsp=262144
+A9=0, M3=29, DSP=3
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3801088,dsp=393216
+A9=2, M3=30, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3932160
+A9=1, M3=30, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=3932160,dsp=131072
+A9=0, M3=30, DSP=2
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=3932160,dsp=262144
+A9=1, M3=31, DSP=0
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=4063232
+A9=0, M3=31, DSP=1
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -r sysm3=4063232,dsp=131072

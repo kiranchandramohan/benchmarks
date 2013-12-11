@@ -1,0 +1,19 @@
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -l 2 
+Time<total,runtime, a9-sync,a9,m3,dsp> = <1121.118286,1120.036743,1120.036621,0.000000,0.000000,0.000000>
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -r dsp=2048
+Time<total,runtime, a9-sync,a9,m3,dsp> = <768.361389,766.983887,0.000000,0.000000,0.000000,766.983276>
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -r sysm3=2048
+Time<total,runtime, a9-sync,a9,m3,dsp> = <1641.844238,1640.626953,0.000000,0.000000,1640.626343,0.000000>
+
+
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -l 2 -r sysm3=448,dsp=896
+Time<total,runtime, a9-sync,a9,m3,dsp> = <391.839539,390.620239,390.619873,0.000000,362.363342,346.832001>
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -l 2 -r sysm3=448,dsp=928
+Time<total,runtime, a9-sync,a9,m3,dsp> = <375.407867,373.593048,373.592682,0.000000,362.385956,359.268677>
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -l 2 -r sysm3=448,dsp=960
+Time<total,runtime, a9-sync,a9,m3,dsp> = <373.083557,371.263763,356.356598,0.000000,362.364105,371.263153>
+
+
+kiran@pandaboard:~/phd_project_matmul_vary_size$ sudo ./app -l 2 -r sysm3=448,dsp=944
+Time<total,runtime, a9-sync,a9,m3,dsp> = 366.268066,366.267700,0.000000,362.448242,365.348022>
+Average time : m3=448,dsp=944 : 366.268066,366.267700,0.000000,362.448242,365.348022>

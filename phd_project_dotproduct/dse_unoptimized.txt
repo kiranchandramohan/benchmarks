@@ -1,0 +1,14 @@
+Average time : m3=851968,dsp=851968 : 12.751557
+Average time : m3=720896,dsp=720896 : 12.404816
+Average time : m3=786432,dsp=720896 : 12.199463
+Average time : m3=786432,dsp=786432 : 12.028167
+Average time : m3=851968,dsp=720896 : 12.498047
+Average time : m3=851968,dsp=786432 : 12.533417
+Average time : m3=851968,dsp=851968 : 12.751557
+
+
+kiran@pandaboard:~/phd_project_dotproduct$ sudo ./app -l 2 ; sudo ./app -r sysm3=4194304 ; sudo ./app -r dsp=4194304
+Time<total,runtime, a9-sync,a9,m3,dsp> = <17.383484,16.341248,16.341187,0.000000,0.000000,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <49.514313,47.044830,0.000000,0.000000,47.044189,0.000000>
+Time<total,runtime, a9-sync,a9,m3,dsp> = <53.204926,51.546204,0.000000,0.000000,0.000000,51.545593>
+

@@ -1,0 +1,146 @@
+cc -I/usr/include/libdrm -I/usr/include/omap -Wall -O2 -mfpu=neon -ftree-vectorize -ftree-vectorizer-verbose=5 -c -o timer.o timer.c
+cc -I/usr/include/libdrm -I/usr/include/omap -Wall -O2 -mfpu=neon -ftree-vectorize -ftree-vectorizer-verbose=5 -c -o barrier.o barrier.c
+cc -I/usr/include/libdrm -I/usr/include/omap -Wall -O2 -mfpu=neon -ftree-vectorize -ftree-vectorizer-verbose=5 -c -o util.o util.c
+
+util.c:78: note: vectorized 0 loops in function.
+cc -I/usr/include/libdrm -I/usr/include/omap -Wall -O2 -mfpu=neon -ftree-vectorize -ftree-vectorizer-verbose=5 -c -o simpletest.o simpletest.c
+
+simpletest.c:75: note: vectorized 0 loops in function.
+
+simpletest.c:111: note: vectorized 0 loops in function.
+
+simpletest.c:126: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+simpletest.c:122: note: vectorized 0 loops in function.
+
+simpletest.c:133: note: vectorized 0 loops in function.
+
+simpletest.c:267: note: vectorized 0 loops in function.
+
+simpletest.c:375: note: not vectorized: unsupported use in stmt.
+simpletest.c:375: note: not vectorized: unsupported use in stmt.
+simpletest.c:362: note: vectorized 0 loops in function.
+
+simpletest.c:392: note: vectorized 0 loops in function.
+
+simpletest.c:454: note: vectorized 0 loops in function.
+
+simpletest.c:575: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+simpletest.c:504: note: vectorized 0 loops in function.
+
+simpletest.c:661: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+simpletest.c:588: note: vectorized 0 loops in function.
+cc -I/usr/include/libdrm -I/usr/include/omap -Wall -O2 -mfpu=neon -ftree-vectorize -ftree-vectorizer-verbose=5 -c -o test.o test.c
+
+test.c:22: note: Alignment of access forced using peeling.
+test.c:22: note: Vectorizing an unaligned access.
+test.c:22: note: vect_model_load_cost: aligned.
+test.c:22: note: vect_model_load_cost: inside_cost = 1, outside_cost = 0 .
+test.c:22: note: vect_model_load_cost: unaligned supported by hardware.
+test.c:22: note: vect_model_load_cost: inside_cost = 2, outside_cost = 0 .
+test.c:22: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 0 .
+test.c:22: note: vect_model_reduction_cost: inside_cost = 1, outside_cost = 3 .
+test.c:22: note: cost model disabled.
+test.c:22: note: Profitability threshold is 3 loop iterations.
+test.c:22: note: LOOP VECTORIZED.
+test.c:17: note: versioning for alias required: can't determine dependence between *D.6943_15 and *D.6942_11
+test.c:17: note: mark for run-time aliasing test between *D.6943_15 and *D.6942_11
+test.c:17: note: Vectorizing an unaligned access.
+test.c:17: note: Vectorizing an unaligned access.
+test.c:17: note: vect_model_induction_cost: inside_cost = 1, outside_cost = 2 .
+test.c:17: note: vect_model_store_cost: unaligned supported by hardware.
+test.c:17: note: vect_model_store_cost: inside_cost = 2, outside_cost = 0 .
+test.c:17: note: vect_model_store_cost: unaligned supported by hardware.
+test.c:17: note: vect_model_store_cost: inside_cost = 2, outside_cost = 0 .
+test.c:17: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 1 .
+test.c:17: note: cost model disabled.
+test.c:17: note: Profitability threshold is 3 loop iterations.
+test.c:17: note: create runtime check for data references *D.6943_15 and *D.6942_11
+test.c:17: note: created 1 versioning for alias checks.
+
+test.c:17: note: LOOP VECTORIZED.
+test.c:13: note: vectorized 2 loops in function.
+
+test.c:39: note: Alignment of access forced using peeling.
+test.c:39: note: Vectorizing an unaligned access.
+test.c:39: note: vect_model_load_cost: aligned.
+test.c:39: note: vect_model_load_cost: inside_cost = 1, outside_cost = 0 .
+test.c:39: note: vect_model_load_cost: unaligned supported by hardware.
+test.c:39: note: vect_model_load_cost: inside_cost = 2, outside_cost = 0 .
+test.c:39: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 0 .
+test.c:39: note: vect_model_reduction_cost: inside_cost = 1, outside_cost = 3 .
+test.c:39: note: cost model disabled.
+test.c:39: note: Profitability threshold is 3 loop iterations.
+test.c:39: note: LOOP VECTORIZED.
+test.c:34: note: versioning for alias required: can't determine dependence between *D.6933_13 and *D.6932_9
+test.c:34: note: mark for run-time aliasing test between *D.6933_13 and *D.6932_9
+test.c:34: note: Vectorizing an unaligned access.
+test.c:34: note: Vectorizing an unaligned access.
+test.c:34: note: vect_model_induction_cost: inside_cost = 1, outside_cost = 2 .
+test.c:34: note: vect_model_store_cost: unaligned supported by hardware.
+test.c:34: note: vect_model_store_cost: inside_cost = 2, outside_cost = 0 .
+test.c:34: note: vect_model_store_cost: unaligned supported by hardware.
+test.c:34: note: vect_model_store_cost: inside_cost = 2, outside_cost = 0 .
+test.c:34: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 1 .
+test.c:34: note: cost model disabled.
+test.c:34: note: Profitability threshold is 3 loop iterations.
+test.c:34: note: create runtime check for data references *D.6933_13 and *D.6932_9
+test.c:34: note: created 1 versioning for alias checks.
+
+test.c:34: note: LOOP VECTORIZED.
+test.c:30: note: vectorized 2 loops in function.
+
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->privatize
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->rd_only
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->rd_only
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->remote_attach and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->remote_attach and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->width and D.6929_7->height
+test.c:51: note: not vectorized: complicated access pattern.
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->privatize
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->rd_only
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->cache_type and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->rd_only
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->privatize and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->remote_attach
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->rd_only and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->remote_attach and D.6929_7->width
+test.c:51: note: Detected interleaving D.6929_7->remote_attach and D.6929_7->height
+test.c:51: note: Detected interleaving D.6929_7->width and D.6929_7->height
+test.c:51: note: not vectorized: complicated access pattern.
+test.c:48: note: vectorized 0 loops in function.
+
+test.c:88: note: inner step doesn't divide the vector-size.
+test.c:88: note: Unknown alignment for access: *((int *) pretmp.291_58 + (unsigned int) ((unsigned int) j_40 * 8192))
+test.c:88: note: strided access in outer loop.
+test.c:88: note: not vectorized: complicated access pattern.
+test.c:88: note: inner step doesn't divide the vector-size.
+test.c:88: note: Unknown alignment for access: *((int *) pretmp.291_58 + (unsigned int) ((unsigned int) j_40 * 8192))
+test.c:88: note: strided access in outer loop.
+test.c:88: note: not vectorized: complicated access pattern.
+test.c:89: note: Alignment of access forced using peeling.
+test.c:89: note: vect_model_induction_cost: inside_cost = 1, outside_cost = 2 .
+test.c:89: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 1 .
+test.c:89: note: vect_model_store_cost: aligned.
+test.c:89: note: vect_model_store_cost: inside_cost = 1, outside_cost = 0 .
+test.c:89: note: vect_model_simple_cost: inside_cost = 1, outside_cost = 1 .
+test.c:89: note: cost model disabled.
+test.c:89: note: Profitability threshold is 3 loop iterations.
+test.c:89: note: LOOP VECTORIZED.
+test.c:83: note: vectorized 1 loops in function.
+
+test.c:98: note: vectorized 0 loops in function.
+cc timer.o barrier.o util.o simpletest.o test.o -o app -lpthread -ldrm_omap

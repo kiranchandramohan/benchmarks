@@ -1,0 +1,20 @@
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.463410
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.469727
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.483429
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.464081
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.530304
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.499085
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.574951
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.544892
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.536163
+Opening Display..               	                   
+sudo ./app -l 2 -r dsp=6,sysm3=8	cur_time = 3.617859
+Average time with #threads= : 3.5183901 

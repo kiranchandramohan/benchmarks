@@ -1,0 +1,69 @@
+Mixed command
+sudo ./app -l 2 -r dsp=256,sysm3=160
+Average time with #threads= : 0
+sudo ./app -l 2 -r dsp=288,sysm3=160
+Opening Display..
+cur_time = 6.387268
+Opening Display..
+cur_time = 6.341125
+Opening Display..
+cur_time = 6.367707
+Opening Display..
+cur_time = 6.328430
+Opening Display..
+cur_time = 6.348022
+Opening Display..
+cur_time = 6.364899
+Opening Display..
+cur_time = 6.353638
+Opening Display..
+cur_time = 6.344147
+Opening Display..
+cur_time = 6.369934
+Opening Display..
+cur_time = 6.349457
+Average time with #threads= : 6.3554627
+sudo ./app -l 2 -r dsp=256,sysm3=192
+Opening Display..
+cur_time = 6.401825
+Opening Display..
+cur_time = 6.396790
+Opening Display..
+cur_time = 6.376587
+Opening Display..
+cur_time = 6.368103
+Opening Display..
+cur_time = 6.395691
+Opening Display..
+cur_time = 6.438965
+Opening Display..
+cur_time = 6.393982
+Opening Display..
+cur_time = 6.379853
+Opening Display..
+cur_time = 6.372589
+Opening Display..
+cur_time = 6.383850
+Average time with #threads= : 6.3908235
+sudo ./app -l 2 -r dsp=288,sysm3=192
+Opening Display..
+cur_time = 6.359466
+Opening Display..
+cur_time = 6.356079
+Opening Display..
+cur_time = 6.396851
+Opening Display..
+cur_time = 6.339782
+Opening Display..
+cur_time = 6.350464
+Opening Display..
+cur_time = 6.351288
+Opening Display..
+cur_time = 6.363923
+Opening Display..
+cur_time = 6.355286
+Opening Display..
+cur_time = 6.353271
+Opening Display..
+cur_time = 6.474823
+Average time with #threads= : 6.3701233

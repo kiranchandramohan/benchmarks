@@ -1,0 +1,126 @@
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.132995
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.135925
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.136322
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.365174
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.600769
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.282410
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.187134
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.122498
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.153962
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=416cur_time = 11.134461
+Average time with #threads= : 11.225165
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.517822
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.449859
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.374664
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.240387
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.357087
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.285919
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.255707
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 10.814483
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.098450
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=416cur_time = 11.015717
+Average time with #threads= : 11.2410095
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.251862
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.300324
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.611328
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.601990
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.077911
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.243896
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.348694
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.161041
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.080109
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=416cur_time = 11.141205
+Average time with #threads= : 11.281836
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 10.836243
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 10.854492
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 10.843323
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 10.985565
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 11.142608
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 12.213471
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 11.055145
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 11.680695
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 11.427490
+Opening Display..
+sudo ./app -l 2 -r dsp=416,sysm3=448cur_time = 11.353882
+Average time with #threads= : 11.2392914
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 11.110168
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.923095
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.901367
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.904449
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.889435
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 11.061707
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 11.071381
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 11.073730
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.946411
+Opening Display..
+sudo ./app -l 2 -r dsp=448,sysm3=448cur_time = 10.860412
+Average time with #threads= : 10.9742155
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.203003
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.294098
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 10.991730
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.039429
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.018524
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.186920
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.023865
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.375916
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.725952
+Opening Display..
+sudo ./app -l 2 -r dsp=480,sysm3=448cur_time = 11.153565
+Average time with #threads= : 11.2013002

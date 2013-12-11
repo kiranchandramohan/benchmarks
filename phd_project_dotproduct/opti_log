@@ -1,0 +1,2597 @@
+A9=48, M3=8, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=524288 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xe2b070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1048576
+Spawning 2 thread(s) on the A9
+Calling test1 from 1048576 to 2621440
+Calling test1 from 2621440 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.203187,11.886169,11.885254,0.000000,11.882080,11.881989>
+0:13.26 real,22.19 user,1.62 sys
+A9=47, M3=8, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=589824 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x223070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1114112
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1114112 to 2654208
+Calling test1 from 2654208 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.155274,11.687897,11.686005,0.000000,11.687531,11.683166>
+0:13.21 real,22.03 user,1.65 sys
+A9=46, M3=8, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=655360 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x9f4070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8d000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8d000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1179648
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1179648 to 2686976
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2686976 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.962860,11.439239,11.438446,0.000000,11.438904,11.438752>
+0:13.02 real,21.68 user,1.72 sys
+A9=45, M3=8, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=720896 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1fd0070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e24000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e24000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e24000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e24000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e24000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e24000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1245184
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1245184 to 2719744
+Calling test1 from 2719744 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.439270,11.326599,11.326111,0.000000,11.326264,11.325684>
+0:12.49 real,21.54 user,1.29 sys
+A9=44, M3=8, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=786432 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x5a2070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1310720
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1310720 to 2752512
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2752512 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.398713,11.035248,11.034454,0.000000,11.034912,11.034668>
+0:12.45 real,21.00 user,1.49 sys
+A9=43, M3=8, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=851968 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1df2070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e23000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e23000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e23000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e23000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e23000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e23000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1376256
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2785280 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.613800,11.078980,11.078064,0.000000,11.078491,11.078553>
+0:12.67 real,20.81 user,1.79 sys
+A9=42, M3=8, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=524288,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=524288,dsp=917504 23
+split_string : (str:sysm3=524288,len=12)
+split_string : (rproc:sysm3,val=524288)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1006070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dd5000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dd5000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dd5000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dd5000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dd5000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dd5000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 524288
+DSP
+Calling test1 from 524288 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.799530,11.584869,11.583954,0.000000,11.584351,11.584412>
+0:12.85 real,20.60 user,2.24 sys
+A9=47, M3=9, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=524288 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x3e070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e48000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e48000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e48000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e48000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e48000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e48000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1114112
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1114112 to 2654208
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2654208 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.998535,11.607361,11.606537,0.000000,11.606964,11.606781>
+0:13.05 real,22.13 user,1.47 sys
+A9=46, M3=9, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=589824 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x121b070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1179648
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1179648 to 2686976
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2686976 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.736816,11.513580,11.512939,0.000000,11.513244,11.513061>
+0:12.79 real,21.36 user,1.42 sys
+A9=45, M3=9, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=655360 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xd78070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e2f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2f000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e2f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2f000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1245184
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1245184 to 2719744
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2719744 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.801026,11.346314,11.345490,0.000000,11.345978,11.345764>
+0:12.85 real,21.72 user,1.69 sys
+A9=44, M3=9, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=720896 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xae1070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5db7000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db7000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db7000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5db7000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db7000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db7000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1310720
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1310720 to 2752512
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2752512 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.446747,11.008728,11.008362,0.000000,11.008301,11.008148>
+0:12.50 real,21.00 user,1.64 sys
+A9=43, M3=9, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=786432 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1269070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5df0000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4df0000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3df0000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5df0000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4df0000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3df0000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1376256
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2785280 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.326325,10.902710,10.901764,0.000000,10.902221,10.901978>
+0:12.38 real,20.45 user,1.53 sys
+A9=42, M3=9, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=851968 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x13f8070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e49000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e49000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e49000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e49000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e49000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e49000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.675232,11.223602,11.222596,0.000000,11.223145,11.223145>
+0:12.73 real,20.36 user,2.11 sys
+A9=41, M3=9, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=589824,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=589824,dsp=917504 23
+split_string : (str:sysm3=589824,len=12)
+split_string : (rproc:sysm3,val=589824)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1776070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 589824
+DSP
+Calling test1 from 589824 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2850816 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.174530,11.795380,11.794494,0.000000,11.794891,11.794953>
+0:13.23 real,19.83 user,2.87 sys
+A9=46, M3=10, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=524288 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xb45070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e7a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e7a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e7a000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e7a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e7a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e7a000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1179648
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1179648 to 2686976
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2686976 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.107575,11.697327,11.696502,0.000000,11.696991,11.696778>
+0:13.16 real,22.01 user,1.55 sys
+A9=45, M3=10, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=589824 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x511070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e2a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2a000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e2a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2a000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1245184
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1245184 to 2719744
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2719744 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.738556,11.332642,11.331940,0.000000,11.332214,11.332215>
+0:12.79 real,21.42 user,1.68 sys
+A9=44, M3=10, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=655360 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x10d6070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dbc000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dbc000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dbc000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1310720
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Calling test1 from 1310720 to 2752512
+Executing remote command via rpmsg
+Calling test1 from 2752512 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.439698,11.165313,11.164612,0.000000,11.164948,11.164703>
+0:12.49 real,21.25 user,1.39 sys
+A9=43, M3=10, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=720896 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xfa3070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e1f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e1f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e1f000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e1f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e1f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e1f000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1376256
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+Calling test1 from 2785280 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.194305,10.865540,10.864899,0.000000,10.865174,10.864594>
+0:12.25 real,20.72 user,1.50 sys
+A9=42, M3=10, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=786432 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1cb9070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5db7000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db7000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db7000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5db7000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db7000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db7000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.083863,10.753296,10.752685,0.000000,10.752960,10.752777>
+0:12.14 real,20.33 user,1.48 sys
+A9=41, M3=10, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=851968 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1691070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dde000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dde000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dde000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dde000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dde000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dde000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2850816 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.689637,11.262848,11.261993,0.000000,11.262451,11.262360>
+0:12.74 real,19.93 user,2.33 sys
+A9=40, M3=10, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=655360,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=655360,dsp=917504 23
+split_string : (str:sysm3=655360,len=12)
+split_string : (rproc:sysm3,val=655360)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x6c2070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e92000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e92000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e92000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e92000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e92000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e92000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 655360
+DSP
+Calling test1 from 655360 to 1572864
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1572864 to 2883584
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2883584 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.199768,11.892395,11.891540,0.000000,11.891998,11.891876>
+0:13.25 real,19.36 user,3.14 sys
+A9=45, M3=11, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=524288 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xb8d070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e69000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e69000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e69000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e69000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e69000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e69000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1245184
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1245184 to 2719744
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2719744 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.691894,11.462250,11.461579,0.000000,11.461884,11.461639>
+0:12.77 real,21.60 user,1.45 sys
+A9=44, M3=11, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=589824 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x195e070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8b000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8b000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8b000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1310720
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1310720 to 2752512
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2752512 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.382812,11.090606,11.089844,0.000000,11.090210,11.089935>
+0:12.44 real,21.23 user,1.39 sys
+A9=43, M3=11, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=655360 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1a39070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e9c000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e9c000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e9c000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e9c000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e9c000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e9c000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1376256
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2785280 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.468841,10.851745,10.850922,0.000000,10.851349,10.851227>
+0:12.52 real,20.94 user,1.74 sys
+A9=42, M3=11, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=720896 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1a44070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5ea6000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4ea6000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3ea6000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5ea6000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4ea6000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3ea6000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.194428,12.903107,12.902679,0.000000,12.902710,12.902527>
+0:14.25 real,12.81 user,1.37 sys
+A9=41, M3=11, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=786432 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1877070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e36000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e36000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e36000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e36000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e36000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e36000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+Calling test1 from 2850816 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.099060,12.795867,12.795227,0.000000,12.795349,12.795075>
+0:14.15 real,12.86 user,1.19 sys
+A9=40, M3=11, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=851968 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1dc0070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e61000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e61000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e61000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e61000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e61000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e61000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1572864
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1572864 to 2883584
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2883584 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.668396,11.398224,11.397400,0.000000,11.397857,11.397705>
+0:12.72 real,19.61 user,2.56 sys
+A9=39, M3=11, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=720896,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=720896,dsp=917504 23
+split_string : (str:sysm3=720896,len=12)
+split_string : (rproc:sysm3,val=720896)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1995070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e77000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e77000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e77000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e77000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e77000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e77000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 720896
+DSP
+Calling test1 from 720896 to 1638400
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1638400 to 2916352
+Calling test1 from 2916352 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.401764,12.032959,12.031128,0.000000,12.031555,12.031128>
+0:13.46 real,19.35 user,3.48 sys
+A9=44, M3=12, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=524288 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x339070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e2a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2a000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e2a000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e2a000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e2a000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1310720
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1310720 to 2752512
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2752512 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.820099,11.504456,11.503662,0.000000,11.504120,11.503876>
+0:12.87 real,21.51 user,1.66 sys
+A9=43, M3=12, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=589824 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x93e070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5ddb000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4ddb000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3ddb000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5ddb000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4ddb000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3ddb000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1376256
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2785280 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.843719,11.685058,11.684387,0.000000,11.684662,11.684662>
+0:12.90 real,20.93 user,2.11 sys
+A9=42, M3=12, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=655360 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1b30070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e46000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e46000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e46000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e46000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e46000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e46000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.010895,11.648712,11.647949,0.000000,11.648346,11.648254>
+0:13.06 real,20.10 user,2.11 sys
+A9=41, M3=12, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=720896 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x2cf070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e4e000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e4e000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e4e000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e4e000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e4e000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e4e000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2850816 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.770539,11.522370,11.521698,0.000000,11.521973,11.521942>
+0:12.82 real,20.12 user,2.32 sys
+A9=40, M3=12, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=786432 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1cea070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e19000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e19000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e19000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e19000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e19000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e19000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1572864
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1572864 to 2883584
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2883584 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.129242,11.550049,11.549439,0.000000,11.549683,11.549683>
+0:13.18 real,19.75 user,2.98 sys
+A9=39, M3=12, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=851968 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1188070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e5f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e5f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e5f000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e5f000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e5f000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e5f000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1638400
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1638400 to 2916352
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2916352 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <12.938690,11.673279,11.672546,0.000000,11.672852,11.672852>
+0:12.99 real,19.50 user,2.92 sys
+A9=38, M3=12, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=786432,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=786432,dsp=917504 23
+split_string : (str:sysm3=786432,len=12)
+split_string : (rproc:sysm3,val=786432)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0xd98070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e4d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e4d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e4d000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e4d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e4d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e4d000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 786432
+DSP
+Calling test1 from 786432 to 1703936
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1703936 to 2949120
+Calling test1 from 2949120 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.500153,12.116333,12.115448,0.000000,12.115905,12.115539>
+0:13.55 real,18.97 user,3.76 sys
+A9=43, M3=13, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=524288 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x484070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8d000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8d000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8d000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8d000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1376256
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1376256 to 2785280
+Calling test1 from 2785280 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.605194,12.302429,12.301636,0.000000,12.302063,12.301544>
+0:13.66 real,20.82 user,2.92 sys
+A9=42, M3=13, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=589824 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x11e0070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e8c000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8c000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8c000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e8c000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e8c000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e8c000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.671723,12.265503,12.265106,0.000000,12.264679,12.264923>
+0:13.72 real,20.36 user,3.14 sys
+A9=41, M3=13, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=655360 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1f47070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e48000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e48000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e48000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e48000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e48000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e48000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2850816 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.546722,12.298584,12.297913,0.000000,12.298217,12.298096>
+0:13.60 real,20.29 user,3.22 sys
+A9=40, M3=13, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=720896 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1bf7070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dd8000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dd8000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dd8000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dd8000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dd8000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dd8000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1572864
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1572864 to 2883584
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2883584 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.646943,12.264588,12.263703,0.000000,12.264221,12.264007>
+0:13.70 real,19.58 user,3.57 sys
+A9=39, M3=13, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=786432 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x179070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dc4000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dc4000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dc4000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dc4000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dc4000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dc4000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1638400
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1638400 to 2916352
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2916352 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.537445,12.297333,12.296631,0.000000,12.296998,12.296844>
+0:13.59 real,19.30 user,3.70 sys
+A9=38, M3=13, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=851968 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x143d070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1703936
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1703936 to 2949120
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2949120 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.691925,12.334778,12.334229,0.000000,12.334412,12.334228>
+0:13.74 real,18.78 user,4.00 sys
+A9=37, M3=13, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=851968,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=851968,dsp=917504 23
+split_string : (str:sysm3=851968,len=12)
+split_string : (rproc:sysm3,val=851968)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x859070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5db1000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db1000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db1000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5db1000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4db1000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3db1000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 851968
+DSP
+Calling test1 from 851968 to 1769472
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1769472 to 2981888
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2981888 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <13.648255,12.268677,12.268127,0.000000,12.268310,12.268158>
+0:13.70 real,18.21 user,4.13 sys
+A9=42, M3=14, DSP=8
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=524288
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=524288 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=524288,len=10)
+split_string : (rproc:dsp,val=524288)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x336070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e56000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e56000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e56000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e56000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e56000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e56000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1441792
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1441792 to 2818048
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2818048 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.447663,13.192597,13.192230,0.000000,13.192200,13.192016>
+0:14.50 real,13.14 user,1.26 sys
+A9=41, M3=14, DSP=9
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=589824
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=589824 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=589824,len=10)
+split_string : (rproc:dsp,val=589824)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x16d1070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e98000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e98000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e98000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e98000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e98000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e98000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1507328
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1507328 to 2850816
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2850816 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.261932,12.925201,12.924682,0.000000,12.924865,12.924652>
+0:14.32 real,19.88 user,4.01 sys
+A9=40, M3=14, DSP=10
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=655360
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=655360 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=655360,len=10)
+split_string : (rproc:dsp,val=655360)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1b2e070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5dea000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dea000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dea000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5dea000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4dea000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3dea000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1572864
+Spawning 2 thread(s) on the A9
+Calling test1 from 1572864 to 2883584
+Calling test1 from 2883584 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.348419,13.027069,13.026398,0.000000,13.024353,13.024292>
+0:14.40 real,19.51 user,4.31 sys
+A9=39, M3=14, DSP=11
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=720896
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=720896 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=720896,len=10)
+split_string : (rproc:dsp,val=720896)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1741070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e07000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e07000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e07000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e07000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e07000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e07000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1638400
+Spawning 2 thread(s) on the A9
+Calling test1 from 1638400 to 2916352
+Calling test1 from 2916352 to 4194304
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.395569,12.910095,12.909760,0.000000,12.906921,12.906952>
+0:14.45 real,19.35 user,4.53 sys
+A9=38, M3=14, DSP=12
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=786432
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=786432 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=786432,len=10)
+split_string : (rproc:dsp,val=786432)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x453070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e70000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e70000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e70000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1703936
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1703936 to 2949120
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2949120 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.361236,13.080353,13.079651,0.000000,13.079987,13.079864>
+0:14.41 real,19.00 user,4.66 sys
+A9=37, M3=14, DSP=13
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=851968
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=851968 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=851968,len=10)
+split_string : (rproc:dsp,val=851968)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x54a070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5e61000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e61000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e61000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5e61000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4e61000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3e61000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1769472
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1769472 to 2981888
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 2981888 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.244171,12.993378,12.992736,0.000000,12.993011,12.992890>
+0:14.30 real,18.44 user,4.92 sys
+A9=36, M3=14, DSP=14
+cmd_str = sudo /usr/bin/time -f "%E real,%U user,%S sys" ./app -l 2 -r sysm3=917504,dsp=917504
+Opening Display..
+Found rproc option -r
+rproc_string : sysm3=917504,dsp=917504 23
+split_string : (str:sysm3=917504,len=12)
+split_string : (rproc:sysm3,val=917504)
+split_string : (str:dsp=917504,len=10)
+split_string : (rproc:dsp,val=917504)
+Successfully opened /dev/rpmsg-omx1 with fd = 5
+simple_test: Connected to OMX
+Successfully opened /dev/rpmsg-omx2 with fd = 6
+simple_test: Connected to OMX
+Opened KMS display = 0x1d20070
+simpletest : Opening display succeeded
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+Asking for memory(width=2048,height=2048) of size=16777216
+bo size = 16777216
+bo size = 16777216
+bo size = 16777216
+Saw l, value =2
+Finished processing options
+buffer A (id=8, u_addr=0xb5de6000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4de6000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3de6000, p_addr=7c800000)
+buffer A (id=8, u_addr=0xb5de6000, p_addr=7e800000)
+buffer B (id=10, u_addr=0xb4de6000, p_addr=7d800000)
+buffer C (id=12, u_addr=0xb3de6000, p_addr=7c800000)
+Finished attaching buffers
+Initializing barrier with count = 3
+SYSM3
+Calling test1 from 0 to 917504
+DSP
+Calling test1 from 917504 to 1835008
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Spawning 2 thread(s) on the A9
+Calling test1 from 1835008 to 3014656
+b1=2122317824,b2=2105540608,b3=2088763392,b4=0,b5=0,b6=0
+Executing remote command via rpmsg
+Calling test1 from 3014656 to 4194304
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_benchmarkex: called fxnTest1(2122317824)), result = 1
+omx_sample: Closed connection to OMX sysm3 with fd = 5
+omx_sample: Closed connection to OMX dsp with fd = 6
+Serial Sum = 1432354816
+Finished read reduce
+Verified PASS
+Begin deallocate_buffers
+Finish deallocate_buffers
+Time<total,runtime, a9-sync,a9,m3,dsp> = <14.441406,13.100403,13.100006,0.000000,13.100036,13.099914>
+0:14.49 real,18.11 user,5.14 sys
